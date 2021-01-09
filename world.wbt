@@ -1,0 +1,6721 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  info [
+    "World generated using the Open Street Map to Webots importer"
+    "Author: David Mansolino <david.mansolino@epfl.ch>"
+  ]
+  coordinateSystem "NUE"
+  gpsCoordinateSystem "WGS84"
+  gpsReference 53.876850000000005 27.55115 0
+  lineScale 3
+}
+Viewpoint {
+  orientation -0.3006437753656214 0.9536757765086095 -0.010762603523606508 0.814967731798332
+  position 192.355644447778 23.223751637015145 -201.56989089540556
+  near 3
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Road {
+  translation 103.969114 0.01 -305.253689
+  name "ulica Voron?nskogo(2)"
+  id "813354249"
+  startJunction "7597551588"
+  endJunction "7597542269"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    -6.941983 0 95.168541
+    -12.65429 0 153.587272
+    -14.414204 0 184.954491
+    -14.560468 0 187.61828
+    -15.075562 0 196.699995
+  ]
+  startingAngle [
+    0.12145
+  ]
+  endingAngle [
+    0.085503
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Floor {
+  translation 0 -0.02 0
+  size 1026 1047
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/grass.jpg"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+}
+SumoInterface {
+  useNetconvert FALSE
+  children [
+    TrafficLight {
+      translation 101.45 1.96 -326.69
+      rotation 0 1 0 -5.307179586466759e-06
+      name "105"
+      red_light "2342987489_1_r"
+      orange_light "2342987489_1_y"
+      green_light "2342987489_1_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    Pole {
+      translation 101.48 0.1 -326.67
+    }
+    TrafficLight {
+      translation 115.54 1.96 -304.54
+      rotation 0 1 0 3.14159
+      name "104"
+      red_light "2342987489_0_r"
+      orange_light "2342987489_0_y"
+      green_light "2342987489_0_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    Pole {
+      translation 115.54 0.1 -304.47
+    }
+    TrafficLight {
+      translation 118.5 1.96 -323.37
+      rotation 0 1 0 -1.5707953071795862
+      name "103"
+      red_light "2342987489_3_r"
+      orange_light "2342987489_3_y"
+      green_light "2342987489_3_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    Pole {
+      translation 118.55 -0.04 -323.37
+    }
+    TrafficLight {
+      translation 315.11 1.85 -80.73
+      rotation 0 1 0 -1.5707953071795862
+      name "100"
+      red_light "7636143642_1_r"
+      orange_light "7636143642_1_y"
+      green_light "7636143642_1_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    TrafficLight {
+      translation 260.15 1.85 -69.4
+      rotation 0 1 0 1.5708
+      name "101"
+      red_light "7636143642_0_r"
+      orange_light "7636143642_0_y"
+      green_light "7636143642_0_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    Pole {
+      translation 315.14 0 -80.73
+    }
+    Pole {
+      translation 260.12 0 -69.38
+    }
+    TrafficLightBigPole {
+      translation 85.0036 -9.04469e-06 -109.274
+      rotation 6.343429999643571e-06 -0.9999999999438114 8.493429999522766e-06 0.0592037
+    }
+    TrafficLightBigPole {
+      translation 83.2103 -1.91943e-05 -83.6639
+      rotation -6.56053e-08 1 4.52732e-07 1.51159
+    }
+    TrafficLightBigPole {
+      translation 102.595 -9.8007e-06 -82.1032
+      rotation -2.51495e-07 1 1.87832e-07 3.08239
+    }
+    TrafficLightHorizontal {
+      translation 104.364 4.38 -102.091
+      rotation -4.26692e-07 1 -6.18318e-08 -1.63
+      name "1"
+      red_light "7597542268_6_r"
+      orange_light "7597542268_6_y"
+      green_light "7597542268_6_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    TrafficLightHorizontal {
+      translation 104.532 4.38 -105.229
+      rotation -4.26692e-07 1 -6.18318e-08 -1.63
+      name "2"
+      red_light "7597542268_5_r"
+      orange_light "7597542268_5_y"
+      green_light "7597542268_5_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    TrafficLightHorizontal {
+      translation 104.195 4.38 -99.0599
+      rotation -4.26692e-07 1 -6.18318e-08 -1.63
+      name "3"
+      red_light "7597542268_7_r"
+      orange_light "7597542268_7_y"
+      green_light "7597542268_7_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    TrafficLightHorizontal {
+      translation 87.2149 4.38 -109.206
+      rotation 6.343429999643571e-06 -0.9999999999438114 8.493429999522766e-06 0.0592037
+      name "4"
+      red_light "7597542269_2_r"
+      orange_light "7597542269_2_y"
+      green_light "7597542269_2_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    TrafficLightHorizontal {
+      translation 96.6462 4.38 -82.3802
+      rotation -2.51494e-07 1 1.87832e-07 3.08239
+      name "8"
+      red_light "7597542267_2_r"
+      orange_light "7597542267_2_y"
+      green_light "7597542267_2_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    TrafficLightHorizontal {
+      translation 100.31 4.38 -82.1625
+      rotation -2.51494e-07 1 1.87832e-07 3.08239
+      name "9"
+      red_light "7597542267_1_r"
+      orange_light "7597542267_1_y"
+      green_light "7597542267_1_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    TrafficLightHorizontal {
+      translation 83.4813 4.38 -89.9729
+      rotation -6.56052e-08 1 4.52732e-07 1.51159
+      name "5"
+      red_light "7597542266_1_r"
+      orange_light "7597542266_1_y"
+      green_light "7597542266_1_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    TrafficLightHorizontal {
+      translation 83.2542 4.38 -86.1396
+      rotation -6.56052e-08 1 4.52732e-07 1.51159
+      name "6"
+      red_light "7597542266_2_r"
+      orange_light "7597542266_2_y"
+      green_light "7597542266_2_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    TrafficLightHorizontal {
+      translation 90.7611 4.38 -109.036
+      rotation 6.343429999643571e-06 -0.9999999999438114 8.493429999522766e-06 0.0592037
+      name "7"
+      red_light "7597542269_1_r"
+      orange_light "7597542269_1_y"
+      green_light "7597542269_1_g"
+      lamp_geometry TrafficLightStandardLampGeometry {
+      }
+    }
+    TrafficLightBigPole {
+      translation 104.544 3.54327e-07 -107.502
+      rotation -4.26692e-07 1 -6.18318e-08 -1.63
+    }
+  ]
+}
+Crossroad {
+  translation 108.539248 0.01 -321.623821
+  name "crossroad(1)"
+  id "2342987489"
+  shape [
+    -6.702584 0 -4.480554
+    -6.982802 0 -0.490381
+    -6.990873 0 -0.35734
+    -7.19393 0 3.615178
+    6.787817 0 4.329859
+    9.83562 0 2.694547
+    10.115398 0 -1.295657
+    7.26302 0 -3.499792
+    -6.702584 0 -4.480554
+  ]
+  connectedRoadIDs [
+    "449519845_1"
+    "449519845_2"
+    "85423090_2"
+  ]
+}
+Crossroad {
+  translation 242.367993 0.01 335.605286
+  name "crossroad(2)"
+  id "275069375"
+  shape [
+    -1.630306 0 -4.164385
+    -4.399884 0 0.084429
+    -3.585871 0 3.845626
+    -2.978856 0 3.860482
+    3.961791 0 2.07466
+    4.036802 0 -1.924637
+    2.353324 0 -3.802876
+    -1.630306 0 -4.164385
+  ]
+  connectedRoadIDs [
+    "25229278_1"
+    "25229278_2"
+    "25785696_1"
+  ]
+}
+Crossroad {
+  translation 67.777007 0.01 330.393493
+  name "crossroad(3)"
+  id "275069377"
+  shape [
+    -6.877148 0 -4.207712
+    -6.996864 0 -0.209503
+    -6.984566 0 0.464582
+    -6.719091 0 4.455763
+    7.250041 0 3.526599
+    7.11658 0 -3.788705
+    -6.877148 0 -4.207712
+  ]
+  connectedRoadIDs [
+    "25229278_2"
+    "25229278_5"
+    "61646864_1"
+    "61646864_2"
+  ]
+}
+Crossroad {
+  translation 266.207039 0.01 -80.184057
+  name "crossroad(4)"
+  id "275070420"
+  shape [
+    0.786789 0 -6.955642
+    -3.269782 0 -5.733326
+    -4.659807 0 4.674259
+    -0.786789 0 6.955642
+    3.187863 0 7.405236
+    4.761442 0 -6.506049
+    0.786789 0 -6.955642
+  ]
+  connectedRoadIDs [
+    "25785696_2"
+    "683335886"
+    "821351684"
+  ]
+}
+Crossroad {
+  translation 189.675129 0.01 -90.872182
+  name "crossroad(5)"
+  id "275070421"
+  shape [
+    -0.075731 0 -7.070662
+    -1.907083 0 6.809041
+    -0.915676 0 6.939851
+    0.180413 0 5.341344
+    1.795777 0 -5.033655
+    0.915676 0 -6.939851
+    -0.075731 0 -7.070662
+  ]
+  connectedRoadIDs [
+    "683335886"
+    "821351699"
+  ]
+}
+Crossroad {
+  translation -198.883746 0.01 322.424871
+  name "crossroad(6)"
+  id "275070434"
+  shape [
+    -3.952507 0 -2.092293
+    -4.045338 0 1.90663
+    -2.068819 0 3.964844
+    1.930584 0 4.033962
+    3.929379 0 2.135411
+    4.065956 0 -1.862257
+    0.068288 0 -1.998834
+    0.046416 0 -1.999461
+    -3.952507 0 -2.092293
+  ]
+  connectedRoadIDs [
+    "25229278_3"
+    "25229278_5"
+    "46378609"
+  ]
+}
+Crossroad {
+  translation -249.267688 0.01 317.67164
+  name "crossroad(7)"
+  id "275070437"
+  shape []
+  connectedRoadIDs [
+    "25229278_4"
+    "25229288_1"
+  ]
+}
+Crossroad {
+  translation -97.491436 0.01 -231.304649
+  name "crossroad(8)"
+  id "275070445"
+  shape [
+    -1.748777 0 -4.116039
+    -1.996171 0 -0.123697
+    -1.998002 0 -0.089383
+    -2.176767 0 3.90662
+    1.819236 0 4.085386
+    3.930959 0 2.132501
+    4.064576 0 -1.865266
+    2.243565 0 -3.868645
+    -1.748777 0 -4.116039
+  ]
+  connectedRoadIDs [
+    "25229287"
+    "25229589_1"
+    "25229589_2"
+  ]
+}
+Crossroad {
+  translation -263.504108 0.01 268.628747
+  name "crossroad(9)"
+  id "275070449"
+  shape [
+    -1.792454 0 -4.097208
+    -3.865393 0 -2.249163
+    -4.118567 0 1.742817
+    2.002579 0 3.99871
+    4.400515 0 0.797163
+    2.202294 0 -3.892287
+    -1.792454 0 -4.097208
+  ]
+  connectedRoadIDs [
+    "25229288_1"
+    "25229288_2"
+    "25229301_1"
+  ]
+}
+Crossroad {
+  translation -104.025538 0.01 -122.324042
+  name "crossroad(10)"
+  id "275070456"
+  shape [
+    -3.504005 0 -5.593251
+    -4.462588 0 4.862902
+    3.402239 0 5.655729
+    4.549836 0 -4.781369
+    0.573799 0 -5.218549
+    0.479292 0 -5.228076
+    -3.504005 0 -5.593251
+  ]
+  connectedRoadIDs [
+    "25229589_2"
+    "760907921_1"
+    "760907921_2"
+  ]
+}
+Crossroad {
+  translation -241.232262 0.01 -134.851921
+  name "crossroad(11)"
+  id "275070458"
+  shape [
+    0.659232 0 -5.208446
+    -3.845657 0 -2.280101
+    -4.133966 0 1.709495
+    -3.633935 0 3.878726
+    -0.659232 0 5.208446
+    3.309108 0 5.710718
+    4.627572 0 -4.706174
+    0.659232 0 -5.208446
+  ]
+  connectedRoadIDs [
+    "760907921_2"
+    "821351685"
+    "821351687"
+  ]
+}
+Crossroad {
+  translation -299.488151 0.01 -138.964033
+  name "crossroad(12)"
+  id "275070459"
+  shape [
+    -0.814684 0 -2.082376
+    -1.177091 0 1.901173
+    -0.181204 0 1.991774
+    -0.140252 0 1.995076
+    0.857286 0 2.065202
+    1.137791 0 -1.92495
+    -0.814684 0 -2.082376
+  ]
+  connectedRoadIDs [
+    "691167150"
+    "821351685"
+  ]
+}
+Crossroad {
+  translation -255.151487 0.01 98.659955
+  name "crossroad(13)"
+  id "275070468"
+  shape [
+    -1.867995 0 -4.063323
+    -3.80824 0 -2.344634
+    -4.160651 0 1.639812
+    -2.17576 0 3.907182
+    1.82029 0 4.084917
+    1.998025 0 0.088867
+    1.998928 0 0.065466
+    2.129861 0 -3.93239
+    -1.867995 0 -4.063323
+  ]
+  connectedRoadIDs [
+    "25229293"
+    "25229301_2"
+    "25229301_3"
+  ]
+}
+Crossroad {
+  translation -244.175596 0.01 -63.82645
+  name "crossroad(14)"
+  id "275070472"
+  shape [
+    -1.79432 0 -4.096391
+    -3.899733 0 -2.189083
+    -4.091106 0 1.806337
+    -2.463108 0 3.732707
+    1.5083 0 4.21011
+    1.985704 0 0.238702
+    1.99742 0 0.10155
+    2.200521 0 -3.89329
+    -1.79432 0 -4.096391
+  ]
+  connectedRoadIDs [
+    "25229301_4"
+    "25229301_5"
+    "821750922"
+  ]
+}
+Crossroad {
+  translation -258.389029 0.01 171.450242
+  name "crossroad(15)"
+  id "275070477"
+  shape [
+    -1.82029 0 -4.084917
+    -3.929681 0 -2.134856
+    -4.065693 0 1.862831
+    -2.258259 0 3.860086
+    1.733113 0 4.122659
+    1.995686 0 0.131287
+    1.998025 0 0.088867
+    2.17576 0 -3.907182
+    -1.82029 0 -4.084917
+  ]
+  connectedRoadIDs [
+    "25229297"
+    "25229301_1"
+    "25229301_3"
+  ]
+}
+Crossroad {
+  translation -251.340763 0.01 16.443439
+  name "crossroad(16)"
+  id "275070484"
+  shape [
+    -1.786954 0 -4.099609
+    -3.925481 0 -2.142569
+    -4.069344 0 1.854843
+    -2.174961 0 3.907626
+    1.821124 0 4.084545
+    2.207515 0 -3.889329
+    -1.786954 0 -4.099609
+  ]
+  connectedRoadIDs [
+    "25229301_2"
+    "25229301_4"
+    "25229302"
+  ]
+}
+Crossroad {
+  translation 89.711203 0.01 30.300806
+  name "crossroad(17)"
+  id "3012253374"
+  shape []
+  connectedRoadIDs [
+    "746092731"
+    "813354244"
+  ]
+}
+Crossroad {
+  translation 105.605966 0.01 -220.111693
+  name "crossroad(18)"
+  id "5281436539"
+  shape [
+    -3.202636 0 -4.24183
+    -3.4909 0 -0.252231
+    -3.496468 0 -0.157205
+    -3.67613 0 3.838758
+    3.316805 0 4.153168
+    4.446201 0 -0.480931
+    3.779163 0 -3.737369
+    -3.202636 0 -4.24183
+  ]
+  connectedRoadIDs [
+    "546509204"
+    "813354245_1"
+    "813354245_2"
+  ]
+}
+Crossroad {
+  translation 183.30833 0.01 -317.268923
+  name "crossroad(19)"
+  id "5440424833"
+  shape [
+    -3.884823 0 -2.215434
+    -4.103241 0 1.778598
+    -1.943204 0 3.848375
+    2.045518 0 4.148539
+    3.915499 0 2.160756
+    4.077904 0 -1.835946
+    -3.884823 0 -2.215434
+  ]
+  connectedRoadIDs [
+    "564741496"
+    "85423090_1"
+    "85423090_2"
+  ]
+}
+Crossroad {
+  translation -237.16533 0.01 321.534894
+  name "crossroad(20)"
+  id "592651813"
+  shape [
+    -3.202369 0 -3.121671
+    -4.418758 0 0.688893
+    -2.183891 0 3.902642
+    1.811779 0 4.088699
+    3.95206 0 2.093136
+    4.045745 0 -1.905767
+    -3.202369 0 -3.121671
+  ]
+  connectedRoadIDs [
+    "25229278_3"
+    "25229278_4"
+    "46378612"
+  ]
+}
+Crossroad {
+  translation -242.621276 0.01 -94.39878
+  name "crossroad(21)"
+  id "7108818105"
+  shape []
+  connectedRoadIDs [
+    "25229301_5"
+    "760907920"
+  ]
+}
+Crossroad {
+  translation -33.062136 0.01 -97.949135
+  name "crossroad(22)"
+  id "7595860638"
+  shape []
+  connectedRoadIDs [
+    "815628158"
+    "821750924"
+  ]
+}
+Crossroad {
+  translation -241.911983 0.01 -114.865454
+  name "crossroad(23)"
+  id "7595860639"
+  shape [
+    -3.36202 0 -4.116652
+    -3.694378 0 -3.8212
+    -4.277788 0 3.154446
+    -2.135976 0 3.929072
+    1.861672 0 4.066224
+    3.724585 0 3.791763
+    4.252622 0 -3.188292
+    3.633935 0 -3.878726
+    -3.36202 0 -4.116652
+  ]
+  connectedRoadIDs [
+    "760907920"
+    "821351686"
+    "821351687"
+    "821750924"
+  ]
+}
+Crossroad {
+  translation 87.541236 0.01 -87.246921
+  name "crossroad(24)"
+  id "7597542266"
+  shape [
+    -3.230351 0 -4.220762
+    -3.665958 0 -3.848474
+    -4.301048 0 3.122656
+    -3.844189 0 3.670451
+    3.127678 0 4.297398
+    3.733201 0 3.783281
+    4.245358 0 -3.197958
+    3.754603 0 -3.762042
+    -3.230351 0 -4.220762
+  ]
+  connectedRoadIDs [
+    "821351689"
+    "821351690"
+    "821351696"
+    "821351697"
+  ]
+}
+Crossroad {
+  translation 98.807492 0.01 -86.420407
+  name "crossroad(25)"
+  id "7597542267"
+  shape [
+    -3.174712 0 -4.262769
+    -3.733201 0 -3.783281
+    -4.245358 0 3.197958
+    -3.691656 0 3.82383
+    3.299948 0 4.166574
+    3.637205 0 3.87566
+    4.324177 0 -3.090549
+    3.803624 0 -3.712472
+    -3.174712 0 -4.262769
+  ]
+  connectedRoadIDs [
+    "746092731"
+    "821351693"
+    "821351695_1"
+    "821351696"
+  ]
+}
+Crossroad {
+  translation 100.053564 0.01 -102.221887
+  name "crossroad(26)"
+  id "7597542268"
+  shape [
+    -3.485754 0 -5.604643
+    -4.478415 0 4.848329
+    3.443705 0 5.630577
+    4.51458 0 -4.814672
+    0.535437 0 -5.222625
+    0.496331 0 -5.226486
+    -3.485754 0 -5.604643
+  ]
+  connectedRoadIDs [
+    "821351692"
+    "821351693"
+    "821351694"
+    "821351698"
+  ]
+}
+Crossroad {
+  translation 88.596137 0.01 -103.309937
+  name "crossroad(27)"
+  id "7597542269"
+  shape [
+    -3.537041 0 -5.572418
+    -4.433733 0 4.889224
+    3.485754 0 5.604643
+    4.478415 0 -4.848329
+    0.496331 0 -5.226486
+    0.448346 0 -5.230821
+    -3.537041 0 -5.572418
+  ]
+  connectedRoadIDs [
+    "760907921_1"
+    "813354249"
+    "821351690"
+    "821351694"
+  ]
+}
+Crossroad {
+  translation 81.492908 0.01 92.28972
+  name "crossroad(28)"
+  id "7597542284"
+  shape [
+    0.075512 0 -10.594541
+    -6.54781 0 -8.329237
+    -6.992503 0 -0.323882
+    -7.038772 0 0.675047
+    -3.311661 0 1.132652
+    3.219525 0 1.37283
+    6.946234 0 1.322811
+    6.992503 0 0.323882
+    7.141895 0 -7.825812
+    0.702846 0 -10.571471
+    0.075512 0 -10.594541
+  ]
+  connectedRoadIDs [
+    "61646864_1"
+    "813354244"
+    "821351688"
+  ]
+}
+Crossroad {
+  translation 108.336191 0.01 -317.651302
+  name "crossroad(29)"
+  id "7597551588"
+  shape [
+    -6.939825 0 -1.356037
+    -7.84541 0 11.973079
+    0.08942 0 12.941533
+    6.904332 0 12.762972
+    6.98825 0 11.601541
+    7.041922 0 -0.641356
+    3.362958 0 -0.969801
+    -6.939825 0 -1.356037
+  ]
+  connectedRoadIDs [
+    "449519845_2"
+    "813354245_2"
+    "813354249"
+  ]
+}
+Crossroad {
+  translation 86.49643 0.01 -75.628315
+  name "crossroad(30)"
+  id "7600328554"
+  shape []
+  connectedRoadIDs [
+    "821351688"
+    "821351689"
+  ]
+}
+Crossroad {
+  translation 70.183025 0.01 -88.828305
+  name "crossroad(31)"
+  id "7600328555"
+  shape []
+  connectedRoadIDs [
+    "815628158"
+    "821351697"
+  ]
+}
+Crossroad {
+  translation 100.848935 0.01 -117.322976
+  name "crossroad(32)"
+  id "7600328558"
+  shape []
+  connectedRoadIDs [
+    "813354245_1"
+    "821351692"
+  ]
+}
+Crossroad {
+  translation 116.210709 0.01 -100.565414
+  name "crossroad(33)"
+  id "7600328559"
+  shape [
+    0.915676 0 -6.939851
+    -0.459348 0 -5.324613
+    -1.530223 0 5.120637
+    -0.915676 0 6.939851
+    0.075731 0 7.070662
+    1.907083 0 -6.809041
+    0.915676 0 -6.939851
+  ]
+  connectedRoadIDs [
+    "821351698"
+    "821351699"
+  ]
+}
+Crossroad {
+  translation 265.16259 0.01 -72.825987
+  name "crossroad(34)"
+  id "7636143640"
+  shape [
+    -1.418002 0 -4.241376
+    -3.642409 0 -3.870769
+    -4.32002 0 3.096357
+    -2.541932 0 3.76008
+    1.437694 0 4.163288
+    3.860823 0 3.65295
+    4.133122 0 -3.341752
+    2.5423 0 -3.679227
+    -1.418002 0 -4.241376
+  ]
+  connectedRoadIDs [
+    "25785696_1"
+    "25785696_2"
+    "821351695_1"
+    "821351695_2"
+  ]
+}
+Crossroad {
+  translation 312.732783 0.01 -73.60251
+  name "crossroad(35)"
+  id "7636143642"
+  shape [
+    -45.738955 0 -13.53719
+    -47.434044 0 -2.720828
+    -47.706342 0 4.273873
+    0.253929 0 7.066507
+    1.73485 0 -6.854947
+    -35.280071 0 -12.354131
+    -45.738955 0 -13.53719
+  ]
+  connectedRoadIDs [
+    "691167146"
+    "821351684"
+    "821351695_2"
+  ]
+}
+Road {
+  translation 60.713927 0.01 -224.084422
+  name "1-j pereulok ?ukovskogo"
+  id "25229287"
+  endJunction "275070445"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -31.90301 0 -1.936381
+    -69.583333 0 -4.229234
+    -76.383499 0 -4.485734
+    -81.157069 0 -4.534346
+    -83.739898 0 -4.731366
+    -154.207595 0 -7.086609
+  ]
+  endingAngle [
+    1.604207
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -405.460504 0.01 85.365613
+  name "Roga??vskij proezd"
+  id "25229293"
+  endJunction "275070468"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    146.324572 0 12.941931
+  ]
+  endingAngle [
+    -1.482579
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -262.386716 0.01 171.314229
+  name "Neft?na? ulica"
+  id "25229297"
+  startJunction "275070477"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -148.006135 0 -5.035586
+    -233.719844 0 -10.284366
+  ]
+  startingAngle [
+    1.604806
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -255.338175 0.01 16.299576
+  name "A?rodromnyj pereulok"
+  id "25229302"
+  startJunction "275070484"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -146.250051 0 -5.263401
+    -166.280331 0 -7.067138
+  ]
+  startingAngle [
+    1.60677
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -85.164416 0.01 364.597842
+  name "road(1)"
+  id "46378609"
+  endJunction "275070434"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -71.744309 0 -3.04651
+    -97.509438 0 -4.02122
+    -111.395225 0 -4.544927
+    -113.630031 0 -5.379603
+    -114.338712 0 -7.6575
+    -113.849451 0 -34.643713
+    -113.788448 0 -38.173568
+  ]
+  endingAngle [
+    -3.124312
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -242.577286 0.01 438.578425
+  name "road(2)"
+  id "46378612"
+  endJunction "592651813"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    3.375943 0 -73.054392
+    5.107218 0 -110.499082
+    5.225901 0 -113.04786
+  ]
+  endingAngle [
+    -3.095062
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation -237.470068 -0.07 328.079343
+  rotation 0 1 0 -0.046531
+  name "pedestrian crossing(1)"
+  size 4 1.6
+}
+Road {
+  translation -241.533344 0.01 -195.358636
+  name "road(3)"
+  id "371266084"
+  width 4
+  numberOfLanes 1
+  speedLimit 27.777778
+  lines []
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    1.415356 0 -36.319003
+    0.755209 0 -38.625186
+    -1.458873 0 -39.548283
+    -49.980099 0 -43.304608
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 109.575349 0.01 -218.636159
+  name "road(4)"
+  id "546509204"
+  startJunction "5281436539"
+  width 4
+  numberOfLanes 1
+  speedLimit 27.777778
+  lines []
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    8.349455 0 3.103734
+    16.016909 0 6.167351
+    19.007983 0 7.360509
+    16.887357 0 32.418806
+  ]
+  startingAngle [
+    -1.331742
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 183.359487 0.01 -313.270466
+  name "road(5)"
+  id "564741496"
+  startJunction "5440424833"
+  width 4
+  numberOfLanes 1
+  speedLimit 27.777778
+  lines []
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -0.297994 0 3.959886
+    -1.215748 0 6.163162
+    -3.518765 0 6.789907
+    -47.785138 0 4.403129
+  ]
+  startingAngle [
+    0.075112
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -32.076152 0.01 -324.630282
+  name "road(6)"
+  id "566092584"
+  width 4
+  numberOfLanes 1
+  speedLimit 27.777778
+  lines []
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    0.217569 0 -4.978667
+    0.089305 0 -7.186754
+    0.902416 0 -21.525697
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 262.242244 0.01 -80.713591
+  name "ulica ?ukovskogo"
+  id "683335886"
+  startJunction "275070420"
+  endJunction "275070421"
+  width 10.5
+  numberOfLanes 3
+  numberOfForwardLanes 3
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+  ]
+  wayPoints [
+    0 0 0
+    -51.490652 0 -6.877033
+    -71.57902 0 -10.004747
+  ]
+  startingAngle [
+    1.703569
+  ]
+  endingAngle [
+    1.725254
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 485.835463 0.01 -53.638968
+  name "ulica ?ukovskogo(1)"
+  id "691167146"
+  endJunction "7636143642"
+  width 14
+  numberOfLanes 4
+  numberOfForwardLanes 3
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  wayPoints [
+    0 0 0
+    -19.045045 0 -2.448912
+    -43.788828 0 -5.162607
+    -55.228049 0 -6.769939
+    -110.721468 0 -13.327623
+    -172.10829 0 -19.857761
+  ]
+  endingAngle [
+    1.676775
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 466.790419 -0.07 -56.087881
+  rotation 0 1 0 1.461561
+  name "pedestrian crossing(2)"
+  size 14 5.6
+}
+PedestrianCrossing {
+  translation 430.607414 -0.07 -60.408908
+  rotation 0 1 0 1.453171
+  name "pedestrian crossing(3)"
+  size 14 5.6
+}
+Road {
+  translation -300.484039 0.01 -139.054635
+  name "ulica ?ukovskogo(2)"
+  id "691167150"
+  startJunction "275070459"
+  width 4
+  numberOfLanes 1
+  speedLimit 27.777778
+  lines []
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -77.533364 0 -7.05367
+    -120.210616 0 -10.938124
+    -197.971554 0 -18.009846
+  ]
+  startingAngle [
+    1.661523
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 89.711203 0.01 30.300806
+  name "ulica Voron?nskogo"
+  id "746092731"
+  startJunction "3012253374"
+  endJunction "7597542267"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    8.155129 0 -97.477075
+    8.529481 0 -105.158936
+    8.900436 0 -112.72601
+  ]
+  startingAngle [
+    -3.062745
+  ]
+  endingAngle [
+    -3.09261
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 97.866332 -0.07 -67.17627
+  rotation 0 1 0 -0.048693
+  name "pedestrian crossing(4)"
+  size 7 2.8
+}
+Road {
+  translation -242.621276 0.01 -94.39878
+  name "Sennicka? ulica"
+  id "760907920"
+  startJunction "7108818105"
+  endJunction "7595860639"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    0.191915 0 -5.386354
+    0.572141 0 -16.469026
+  ]
+  startingAngle [
+    -3.090796
+  ]
+  endingAngle [
+    -3.107298
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation -242.429361 -0.07 -99.785134
+  rotation 0 1 0 -0.034295
+  name "pedestrian crossing(5)"
+  size 4 1.6
+}
+Road {
+  translation 85.415279 0.01 83.091078
+  name "ulica Voron?nskogo(1)"
+  id "813354244"
+  startJunction "7597542284"
+  endJunction "3012253374"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    0.153302 0 -0.359519
+    4.295923 0 -52.790272
+  ]
+  startingAngle [
+    -2.73853
+  ]
+  endingAngle [
+    -3.062745
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 104.104 -0.07 -307.135
+  rotation 0 1 0 -0.072815
+  name "pedestrian crossing(6)"
+  size 7 2.8
+}
+PedestrianCrossing {
+  translation 89.554909 -0.07 -120.299198
+  rotation 0 1 0 -0.054853
+  name "pedestrian crossing(7)"
+  size 7 2.8
+}
+Road {
+  translation -33.062136 0.01 -97.949135
+  name "ulica ?ukovskogo(3)"
+  id "815628158"
+  startJunction "7595860638"
+  endJunction "7600328555"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    2.460554 0 0.211045
+    32.36589 0 2.793224
+    103.245161 0 9.120829
+  ]
+  startingAngle [
+    -1.485235
+  ]
+  endingAngle [
+    -1.481759
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -245.222074 0.01 -135.137224
+  name "ulica ?ukovskogo(4)"
+  id "821351685"
+  startJunction "275070458"
+  endJunction "275070459"
+  width 4
+  numberOfLanes 1
+  speedLimit 27.777778
+  lines []
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -6.073993 0 -0.438938
+    -53.268539 0 -3.756682
+  ]
+  startingAngle [
+    1.642936
+  ]
+  endingAngle [
+    1.64098
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation -251.296067 -0.07 -135.576162
+  rotation 0 1 0 1.500612
+  name "pedestrian crossing(8)"
+  size 4 1.6
+}
+Road {
+  translation -374.05579 0.01 -125.900759
+  name "ulica ?ukovskogo(5)"
+  id "821351686"
+  endJunction "7595860639"
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  wayPoints [
+    0 0 0
+    60.51071 0 5.054527
+    121.566946 0 10.150707
+    128.157724 0 10.701929
+  ]
+  endingAngle [
+    -1.487355
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation -252.488844 -0.07 -115.750052
+  rotation 0 1 0 1.487355
+  name "pedestrian crossing(9)"
+  size 7 2.8
+}
+Road {
+  translation -241.411463 0.01 -129.582717
+  name "Sennicka? ulica(1)"
+  id "821351687"
+  startJunction "275070458"
+  endJunction "7595860639"
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  wayPoints [
+    0 0 0
+    -0.364563 0 10.719575
+  ]
+  startingAngle [
+    0.1259
+  ]
+  endingAngle [
+    0.033996
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 86.49643 0.01 -75.628315
+  name "ulica Voron?nskogo(3)"
+  id "821351688"
+  startJunction "7600328554"
+  endJunction "7597542284"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    -0.262688 0 7.73361
+    -3.090022 0 57.74782
+    -8.703852 0 157.098964
+    -8.23967 0 158.456145
+  ]
+  startingAngle [
+    0.033954
+  ]
+  endingAngle [
+    -0.329547
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 86.233741 -0.07 -67.894705
+  rotation 0 1 0 -0.056471
+  name "pedestrian crossing(10)"
+  size 7 2.8
+}
+Road {
+  translation 87.182981 0.01 -83.262997
+  name "ulica Voron?nskogo(4)"
+  id "821351689"
+  startJunction "7597542266"
+  endJunction "7600328554"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    -0.686551 0 7.634682
+  ]
+  startingAngle [
+    0.089684
+  ]
+  endingAngle [
+    0.033954
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 88.250794 0.01 -98.051382
+  name "ulica Voron?nskogo(5)"
+  id "821351690"
+  startJunction "7597542269"
+  endJunction "7597542266"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    -0.447432 0 6.813059
+  ]
+  startingAngle [
+    0.090092
+  ]
+  endingAngle [
+    0.065579
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 100.329942 0.01 -107.469261
+  name "ulica Voron?nskogo(6)"
+  id "821351692"
+  startJunction "7597542268"
+  endJunction "7600328558"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    0.518993 0 -9.853715
+  ]
+  startingAngle [
+    -3.046912
+  ]
+  endingAngle [
+    -3.09012
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 99.121947 0.01 -90.408027
+  name "ulica Voron?nskogo(7)"
+  id "821351693"
+  startJunction "7597542267"
+  endJunction "7597542268"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    0.517639 0 -6.564199
+  ]
+  startingAngle [
+    -3.062898
+  ]
+  endingAngle [
+    -3.04317
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 96.07148 0.01 -102.600044
+  name "ulica ?ukovskogo(6)"
+  id "821351694"
+  startJunction "7597542268"
+  endJunction "7597542269"
+  width 10.5
+  numberOfLanes 3
+  numberOfForwardLanes 3
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+  ]
+  wayPoints [
+    0 0 0
+    -3.493258 0 -0.331736
+  ]
+  startingAngle [
+    1.665477
+  ]
+  endingAngle [
+    1.665477
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 91.530515 0.01 -86.95426
+  name "ulica ?ukovskogo(7)"
+  id "821351696"
+  startJunction "7597542266"
+  endJunction "7597542267"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    3.287697 0 0.241192
+  ]
+  startingAngle [
+    -1.497566
+  ]
+  endingAngle [
+    -1.497566
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 70.183025 0.01 -88.828305
+  name "ulica ?ukovskogo(8)"
+  id "821351697"
+  startJunction "7600328555"
+  endJunction "7597542266"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    13.374708 0 1.218475
+  ]
+  startingAngle [
+    -1.481759
+  ]
+  endingAngle [
+    -1.479944
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 115.215923 0.01 -100.667402
+  name "ulica ?ukovskogo(9)"
+  id "821351698"
+  startJunction "7600328559"
+  endJunction "7597542268"
+  width 10.5
+  numberOfLanes 3
+  numberOfForwardLanes 3
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+  ]
+  wayPoints [
+    0 0 0
+    -11.183216 0 -1.146533
+  ]
+  startingAngle [
+    1.672962
+  ]
+  endingAngle [
+    1.672962
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 188.683722 0.01 -91.002992
+  name "ulica ?ukovskogo(10)"
+  id "821351699"
+  startJunction "275070421"
+  endJunction "7600328559"
+  width 14
+  numberOfLanes 4
+  numberOfForwardLanes 4
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+    RoadLine {
+    }
+  ]
+  wayPoints [
+    0 0 0
+    -71.481606 0 -9.431611
+  ]
+  startingAngle [
+    1.701983
+  ]
+  endingAngle [
+    1.701983
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -377.440606 0.01 -70.20959
+  name "Sennickij proezd"
+  id "821750922"
+  endJunction "275070472"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    129.269591 0 6.191768
+  ]
+  endingAngle [
+    -1.522935
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -237.92338 0.01 -114.563718
+  name "ulica ?ukovskogo(11)"
+  id "821750924"
+  startJunction "7595860639"
+  endJunction "7595860638"
+  numberOfForwardLanes 2
+  speedLimit 13.888889
+  wayPoints [
+    0 0 0
+    100.237148 0 7.582886
+    204.861244 0 16.614584
+  ]
+  startingAngle [
+    -1.495291
+  ]
+  endingAngle [
+    -1.485235
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 646.480383 0.01 316.165921
+  name "ulica Levkova"
+  id "25229278_1"
+  endJunction "275069375"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -131.194848 0 20.769871
+    -163.998526 0 26.036506
+    -169.859225 0 26.404605
+    -175.060739 0 25.702556
+    -194.891576 0 25.233599
+    -261.862334 0 23.655263
+    -270.128601 0 23.733253
+    -317.357381 0 21.224251
+    -334.786978 0 20.493171
+    -357.152295 0 20.320157
+    -400.113094 0 19.514376
+  ]
+  endingAngle [
+    1.58955
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 376.351783 -0.07 339.899174
+  rotation 0 1 0 1.517722
+  name "pedestrian crossing(11)"
+  size 4 1.6
+}
+Road {
+  translation -81.447961 0.01 -538.22348
+  name "Byhovska? ulica"
+  id "25229589_1"
+  endJunction "275070445"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    0.680814 0 8.995538
+    -0.040682 0 23.748094
+    -2.762635 0 79.423742
+    -4.232888 0 108.212478
+    -5.014984 0 120.828758
+    -5.269408 0 125.367256
+    -9.628124 0 202.416871
+    -10.088166 0 210.586202
+    -12.047402 0 242.232235
+    -15.390482 0 296.381088
+    -15.796081 0 302.926489
+  ]
+  endingAngle [
+    0.061888
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation -81.488642 -0.07 -514.475386
+  rotation 0 1 0 -0.048851
+  name "pedestrian crossing(12)"
+  size 4 1.6
+}
+PedestrianCrossing {
+  translation -86.717368 -0.07 -412.856224
+  rotation 0 1 0 -0.05651
+  name "pedestrian crossing(13)"
+  size 4 1.6
+}
+PedestrianCrossing {
+  translation -91.076084 -0.07 -335.806609
+  rotation 0 1 0 -0.056254
+  name "pedestrian crossing(14)"
+  size 4 1.6
+}
+PedestrianCrossing {
+  translation -96.838443 -0.07 -241.842392
+  rotation 0 1 0 -0.061888
+  name "pedestrian crossing(15)"
+  size 4 1.6
+}
+Road {
+  translation -97.670202 0.01 -227.308645
+  name "Byhovska? ulica(1)"
+  id "25229589_2"
+  startJunction "275070445"
+  endJunction "275070456"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -3.037457 0 67.897166
+    -5.239646 0 89.571367
+    -5.976236 0 99.747342
+  ]
+  startingAngle [
+    0.044706
+  ]
+  endingAngle [
+    0.091421
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation -102.909847 -0.07 -137.737278
+  rotation 0 1 0 -0.072259
+  name "pedestrian crossing(16)"
+  size 4 1.6
+}
+Road {
+  translation -249.267688 0.01 317.67164
+  name "ulica Levkova(1)"
+  id "25229288_1"
+  startJunction "275070437"
+  endJunction "275070449"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -4.560823 0 -12.65392
+    -5.721609 0 -35.847851
+    -7.179351 0 -41.556652
+    -9.849174 0 -45.756877
+    -11.034873 0 -46.644957
+  ]
+  startingAngle [
+    1.879787
+  ]
+  endingAngle [
+    2.213653
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -267.496087 0.01 268.375574
+  name "ulica Levkova(2)"
+  id "25229288_2"
+  startJunction "275070449"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -17.325537 0 -1.098794
+    -113.110094 0 -7.943383
+    -186.466047 0 -13.635564
+    -242.34158 0 -19.208247
+    -250.394272 0 -20.276211
+  ]
+  startingAngle [
+    1.634132
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation -284.821624 -0.07 267.276779
+  rotation 0 1 0 1.499459
+  name "pedestrian crossing(17)"
+  size 4 1.6
+}
+PedestrianCrossing {
+  translation -509.837668 -0.07 249.167327
+  rotation 0 1 0 1.438944
+  name "pedestrian crossing(18)"
+  size 4 1.6
+}
+Road {
+  translation -263.299187 0.01 264.634
+  name "Sennicka? ulica(2)"
+  id "25229301_1"
+  startJunction "275070449"
+  endJunction "275070477"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    4.023889 0 -78.442352
+    4.333293 0 -84.414833
+    4.647585 0 -89.192385
+  ]
+  startingAngle [
+    -3.09034
+  ]
+  endingAngle [
+    -3.075902
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -258.211295 0.01 167.454192
+  name "Sennicka? ulica(3)"
+  id "25229301_3"
+  startJunction "275070477"
+  endJunction "275070468"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    2.882073 0 -64.798188
+  ]
+  startingAngle [
+    -3.097144
+  ]
+  endingAngle [
+    -3.097144
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -255.020554 0.01 94.662099
+  name "Sennicka? ulica(4)"
+  id "25229301_2"
+  startJunction "275070468"
+  endJunction "275070484"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    0.102765 0 -3.137787
+    1.787039 0 -35.466783
+    3.502872 0 -74.222574
+  ]
+  startingAngle [
+    -3.108854
+  ]
+  endingAngle [
+    -3.097349
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 242.729501 0.01 331.621655
+  name "pereulok Voron?nskogo"
+  id "25785696_1"
+  startJunction "275069375"
+  endJunction "7636143640"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    0.437317 0 -4.81899
+    1.949564 0 -40.430433
+    2.484032 0 -48.902257
+    4.535637 0 -83.880181
+    4.757531 0 -88.227495
+    5.612396 0 -102.690952
+    6.063598 0 -111.865553
+    7.231622 0 -134.674162
+    8.350442 0 -156.673741
+    8.756482 0 -173.073068
+    9.127351 0 -176.875873
+    12.013561 0 -206.252357
+    13.306792 0 -220.19324
+    15.885032 0 -262.005706
+    17.495519 0 -299.543921
+    17.830724 0 -306.515205
+    18.991652 0 -321.769853
+    20.627937 0 -343.155358
+    18.022122 0 -366.368416
+    20.531055 0 -387.162422
+    21.88097 0 -400.485958
+  ]
+  startingAngle [
+    -3.051092
+  ]
+  endingAngle [
+    -3.040619
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 102.788183 0.01 -86.027851
+  name "ulica ?ukovskogo(12)"
+  id "821351695_1"
+  startJunction "7597542267"
+  endJunction "7636143640"
+  numberOfForwardLanes 2
+  speedLimit 13.888889
+  wayPoints [
+    0 0 0
+    12.398667 0 1.222694
+    31.706522 0 3.130798
+    66.43785 0 6.779842
+    81.936552 0 8.178339
+    123.246952 0 9.396393
+    158.393193 0 12.814658
+  ]
+  startingAngle [
+    -1.472499
+  ]
+  endingAngle [
+    -1.473843
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -202.882669 0.01 322.33204
+  name "ulica Levkova(3)"
+  id "25229278_3"
+  startJunction "275070434"
+  endJunction "592651813"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -28.184307 0 -0.654275
+    -30.283758 0 -0.70346
+  ]
+  startingAngle [
+    1.594006
+  ]
+  endingAngle [
+    1.59422
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation -231.066976 -0.07 321.677764
+  rotation 0 1 0 1.547373
+  name "pedestrian crossing(19)"
+  size 4 1.6
+}
+Road {
+  translation -240.975893 0.01 320.318505
+  name "ulica Levkova(4)"
+  id "25229278_4"
+  startJunction "592651813"
+  endJunction "275070437"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -8.291795 0 -2.646865
+  ]
+  startingAngle [
+    1.879787
+  ]
+  endingAngle [
+    1.879787
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 81.434904 0.01 93.542021
+  name "ulica Voron?nskogo(8)"
+  id "61646864_1"
+  startJunction "7597542284"
+  endJunction "275069377"
+  width 14
+  numberOfLanes 4
+  numberOfForwardLanes 3
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  wayPoints [
+    0 0 0
+    -1.132488 0 24.45004
+    -2.966046 0 58.980372
+    -3.927098 0 76.975664
+    -10.306936 0 181.71775
+    -13.172924 0 220.654668
+    -13.53818 0 232.853264
+  ]
+  startingAngle [
+    0.036757
+  ]
+  endingAngle [
+    0.029934
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 81.8853 -0.07 88.5542
+  rotation 0 1 0 -0.053355
+  name "pedestrian crossing(20)"
+  size 14 5.6
+}
+PedestrianCrossing {
+  translation 68.26198 -0.07 314.196689
+  rotation 0 1 0 -0.029934
+  name "pedestrian crossing(21)"
+  size 14 5.6
+}
+Road {
+  translation 68.042483 0.01 334.384674
+  name "ulica Voron?nskogo(9)"
+  id "61646864_2"
+  startJunction "275069377"
+  width 14
+  numberOfLanes 4
+  numberOfForwardLanes 3
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  wayPoints [
+    0 0 0
+    0.718388 0 10.80031
+    -1.119581 0 34.634163
+    -2.740079 0 57.808878
+    -10.138959 0 163.914019
+  ]
+  startingAngle [
+    -0.066418
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 68.760871 -0.07 345.184984
+  rotation 0 1 0 -0.076964
+  name "pedestrian crossing(22)"
+  size 14 5.6
+}
+Road {
+  translation 238.346838 0.01 337.43966
+  name "ulica Levkova(5)"
+  id "25229278_2"
+  startJunction "275069375"
+  endJunction "275069377"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -4.521488 0 -0.110659
+    -80.713973 0 -4.272914
+    -92.679937 0 -4.928556
+    -100.705611 0 -5.384997
+    -152.640688 0 -9.297163
+    -163.40055 0 -7.946267
+  ]
+  startingAngle [
+    1.35766
+  ]
+  endingAngle [
+    1.552554
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 233.825351 -0.07 337.329001
+  rotation 0 1 0 1.516222
+  name "pedestrian crossing(23)"
+  size 4 1.6
+}
+PedestrianCrossing {
+  translation 157.632865 -0.07 333.166746
+  rotation 0 1 0 1.516059
+  name "pedestrian crossing(24)"
+  size 4 1.6
+}
+PedestrianCrossing {
+  translation 85.706151 -0.07 328.142497
+  rotation 0 1 0 -1.4459
+  name "pedestrian crossing(25)"
+  size 4 1.6
+}
+Road {
+  translation 60.781559 0.01 330.261585
+  name "ulica Levkova(6)"
+  id "25229278_5"
+  startJunction "275069377"
+  endJunction "275070434"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    -6.302499 0 -0.118842
+    -15.683853 0 -0.354284
+    -109.430581 0 -2.702723
+    -111.58968 0 -2.77784
+    -255.667637 0 -7.700137
+  ]
+  startingAngle [
+    1.552554
+  ]
+  endingAngle [
+    1.604947
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 54.47906 -0.07 330.142743
+  rotation 0 1 0 1.545705
+  name "pedestrian crossing(26)"
+  size 4 1.6
+}
+Road {
+  translation 198.133239 0.01 -316.666517
+  name "road(7)"
+  id "85423090_1"
+  endJunction "5440424833"
+  width 4
+  numberOfLanes 1
+  speedLimit 27.777778
+  lines []
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -10.828207 0 -0.440002
+  ]
+  endingAngle [
+    1.611409
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 179.314298 0.01 -317.487341
+  name "road(8)"
+  id "85423090_2"
+  startJunction "5440424833"
+  endJunction "2342987489"
+  width 4
+  numberOfLanes 1
+  speedLimit 27.777778
+  lines []
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -18.345918 0 -1.003267
+    -53.709175 0 -2.939884
+    -60.799541 0 -3.437034
+  ]
+  startingAngle [
+    1.625428
+  ]
+  endingAngle [
+    1.640798
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 197.354297 0.01 -1000.630339
+  name "ulica Voron?nskogo(10)"
+  id "449519845_1"
+  endJunction "2342987489"
+  width 14
+  numberOfLanes 4
+  numberOfForwardLanes 3
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  wayPoints [
+    0 0 0
+    -29.124613 0 175.327301
+    -31.147369 0 187.34082
+    -32.850162 0 197.530827
+    -33.753531 0 203.106156
+    -49.441556 0 298.152581
+    -60.635625 0 369.497576
+    -65.387301 0 416.001628
+    -67.256371 0 430.571619
+    -71.136007 0 467.371895
+    -72.57897 0 482.352851
+    -73.937923 0 495.222791
+    -78.806421 0 536.488219
+    -88.534831 0 675.016346
+  ]
+  endingAngle [
+    0.070112
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 166.206927 -0.07 -813.289519
+  rotation 0 1 0 -0.165574
+  name "pedestrian crossing(27)"
+  size 14 5.6
+}
+PedestrianCrossing {
+  translation 126.218289 -0.07 -533.258444
+  rotation 0 1 0 -0.096024
+  name "pedestrian crossing(28)"
+  size 14 5.6
+}
+PedestrianCrossing {
+  translation 123.416373 -0.07 -505.407548
+  rotation 0 1 0 -0.117437
+  name "pedestrian crossing(29)"
+  size 14 5.6
+}
+Road {
+  translation 100.848935 0.01 -117.322976
+  name "ulica Voron?nskogo(11)"
+  id "813354245_1"
+  startJunction "7600328558"
+  endJunction "5281436539"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    0.106394 0 -2.0652
+    1.270839 0 -29.864387
+    1.927811 0 -39.862622
+    4.577369 0 -98.792754
+  ]
+  startingAngle [
+    -3.09012
+  ]
+  endingAngle [
+    -3.096662
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 100.955329 -0.07 -119.388176
+  rotation 0 1 0 -0.041863
+  name "pedestrian crossing(30)"
+  size 7 2.8
+}
+Road {
+  translation 105.89423 0.01 -224.101293
+  name "ulica Voron?nskogo(12)"
+  id "813354245_2"
+  startJunction "5281436539"
+  endJunction "7597551588"
+  numberOfForwardLanes 2
+  speedLimit 27.777778
+  wayPoints [
+    0 0 0
+    5.830514 0 -80.694918
+  ]
+  startingAngle [
+    -3.069464
+  ]
+  endingAngle [
+    3.115397
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+PedestrianCrossing {
+  translation 111.768 -0.07 -306.65
+  rotation 0 -1 0 -0.018965307179586333
+  name "pedestrian crossing(31)"
+  size 7 2.8
+}
+Road {
+  translation 84.61075 0.01 -103.651533
+  name "ulica ?ukovskogo(13)"
+  id "760907921_1"
+  startJunction "7597542269"
+  endJunction "275070456"
+  width 10.5
+  numberOfLanes 3
+  numberOfForwardLanes 3
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+  ]
+  wayPoints [
+    0 0 0
+    -13.03808 0 -1.117525
+    -85.51866 0 -7.334347
+    -184.66025 0 -18.235329
+  ]
+  startingAngle [
+    1.6563
+  ]
+  endingAngle [
+    1.68031
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -108.008834 0.01 -122.689216
+  name "ulica ?ukovskogo(14)"
+  id "760907921_2"
+  startJunction "275070456"
+  endJunction "275070458"
+  width 10.5
+  numberOfLanes 3
+  numberOfForwardLanes 3
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+    }
+  ]
+  wayPoints [
+    0 0 0
+    -95.545594 0 -8.759282
+    -120.348781 0 -10.533163
+    -129.255088 0 -11.660433
+  ]
+  startingAngle [
+    1.662217
+  ]
+  endingAngle [
+    1.696697
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+    "textures/road_line_dashed.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -251.130483 0.01 12.44897
+  name "Sennicka? ulica(5)"
+  id "25229301_4"
+  startJunction "275070484"
+  endJunction "275070472"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    1.728807 0 -32.840278
+    4.780911 0 -58.190634
+    6.477483 0 -72.304011
+  ]
+  startingAngle [
+    -3.088998
+  ]
+  endingAngle [
+    -3.021957
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation -243.972495 0.01 -67.82129
+  name "Sennicka? ulica(6)"
+  id "25229301_5"
+  startJunction "275070472"
+  endJunction "7108818105"
+  width 4
+  numberOfLanes 1
+  speedLimit 13.888889
+  lines []
+  wayPoints [
+    0 0 0
+    1.351219 0 -26.57749
+  ]
+  startingAngle [
+    -3.090796
+  ]
+  endingAngle [
+    -3.090796
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+SimpleBuilding {
+  translation 288.95 0 323.85
+  name "OOO Frontkom"
+  floorNumber 2
+  corners [
+    0 0
+    -29.07 0.35
+    -28.7 -10.37
+    -27.56 -28.25
+    -12.53 -27.45
+    -13.22 -14.42
+    1.02 -13.66
+  ]
+  wallType "old brick wall"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -22.03 0 239.98
+  name "CTP 2/231"
+  corners [
+    0 0
+    0.07 8.81
+    -10.95 8.9
+    -11.01 0.09
+  ]
+  wallType "office building"
+}
+SimpleBuilding {
+  translation 294.96 0 261.16
+  name "building(1)"
+  floorNumber 2
+  corners [
+    0 0
+    -17.59 -0.39
+    -17.35 -11.3
+    0.24 -10.91
+  ]
+  wallType "stone brick"
+}
+SimpleBuilding {
+  translation 326.85 0 261.68
+  name "building(2)"
+  floorNumber 2
+  corners [
+    0 0
+    -18.05 -0.13
+    -17.97 -11.22
+    0.07 -11.1
+  ]
+  wallType "classic building"
+}
+SimpleBuilding {
+  translation 332.36 0 296.93
+  name "building(3)"
+  floorNumber 1
+  corners [
+    0 0
+    0.19 -13.07
+    -1.3 -13.09
+    -1.26 -15.91
+    -4.25 -15.95
+    -4.22 -17.77
+    -4.14 -23.33
+    8.68 -23.14
+    8.51 -12.43
+    6.76 -12.46
+    6.57 0.1
+  ]
+  wallType "old brick building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 337.23 0 -159.78
+  name "CTP 1/206"
+  floorNumber 1
+  corners [
+    0 0
+    -16.07 -2.21
+    -14.17 -16.11
+    1.91 -13.91
+  ]
+  wallType "old house"
+}
+SimpleBuilding {
+  translation 314.53 0 289.95
+  name "building(4)"
+  floorNumber 2
+  corners [
+    0 0
+    -22.15 -0.81
+    -21.79 -12.45
+    -0.09 -11.64
+  ]
+  wallType "glass highrise"
+}
+SimpleBuilding {
+  translation 331.91 0 174.95
+  name "building(5)"
+  floorNumber 1
+  corners [
+    0 0
+    -39.07 -2.19
+    -39.13 -9.23
+    -0.05 -7.03
+  ]
+  wallType "old brick wall"
+}
+SimpleBuilding {
+  translation 14.32 0 -2.91
+  name "building(6)"
+  corners [
+    0 0
+    -0.32 7.59
+    -17.21 6.87
+    -17.51 13.44
+    -26.18 13.08
+    -26.03 9.74
+    -46.96 8.84
+    -46.73 3.33
+    -49.26 3.23
+    -49 -2.71
+    -46.18 -2.59
+    -45.94 -8.26
+    -20.35 -7.15
+    -20.61 -0.89
+  ]
+  wallType "concrete building"
+  wallColor [
+    0 0 0
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 25.18 0 159.48
+  name "building(7)"
+  floorNumber 2
+  corners [
+    0 0
+    -26.17 -2.15
+    -25.77 -7.04
+    -31.47 -7.51
+    -30.91 -14.31
+    -33.53 -14.53
+    -30.83 -47.52
+    -35.6 -47.91
+    -34.02 -67.32
+    -29.23 -66.93
+    -29.12 -68.3
+    -29.01 -69.58
+    -18.94 -68.75
+    -19.06 -67.23
+    -20.79 -46.04
+    -17.36 -45.77
+    -19.38 -21.05
+    -12.47 -20.48
+    1.57 -19.33
+  ]
+  wallType "glass highrise"
+  wallColor [
+    0 0 0
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 155.16 0 -221.45
+  name "building(8)"
+  floorNumber 1
+  corners [
+    0 0
+    -13.68 -0.48
+    -32.43 -1.33
+    -29.83 -36.01
+    -27.45 -39.36
+    -27.24 -39.55
+    -26.04 -40.59
+    -24.33 -41.61
+    -20.65 -42.57
+    -20.26 -44.6
+    -14.64 -44
+    -7.61 -40.71
+    -7.71 -38.26
+    -1.18 -37.91
+    2.33 -37.04
+    0.77 -12.19
+  ]
+  wallType "highrise"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 365.59 0 184.94
+  name "building(9)"
+  floorNumber 2
+  corners [
+    0 0, -2.32 30.65, -21.46 29.75, -21.53 21.6, -14.74 21.94, -14.33 16.68, -30.92 16.02, -36.32 21.72, -43.56 21.44, -47.5 15.82, -51.28 15.85, -54.58 20.87, -62.7 20.54, -66.52 15.97, -82.21 15.43, -82.58 24.97, -80.47 25.61, -81.74 32.98, -99.55 32.53, -98.72 25.1, -96.6 25.08, -96.08 12.93, -95.56 1.4, -98.12 1.42, -98.18 -5.61, -79.04 -5.04, -79.42 3.38, -82.31 3.01, -82.25 11.16, -66.56 11.43, -62.82 6.14, -54.36 6.34, -50.42 11.7, -47.08 11.68, -43.68 5.99, -35.67 6.2, -30.95 11.55, -14.37 12.41, -14.41 6.75, -19.08 6.79, -19.14 -0.57
+  ]
+  wallType "transparent highrise"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -62.91 0 126.22
+  name "Ofisnoe zdanie"
+  floorNumber 2
+  corners [
+    0 0
+    0.6 -25.2
+    4.5 -25.1
+    4.67 -32.21
+    -33.74 -33.5
+    -33.49 -44.41
+    -27 -44.11
+    -26.55 -63.09
+    -11.54 -62.73
+    -11.97 -44.21
+    17.34 -43.5
+    17.21 -38.04
+    21.95 -37.92
+    21.65 -24.99
+    24.57 -24.92
+    23.97 0.58
+  ]
+  wallType "old house"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 46.04 0 17.6
+  name "Poliklinika №38"
+  corners [
+    0 0
+    -4.09 57.88
+    -13.16 66.22
+    -22.23 74.55
+    -49.9 72.29
+    -46.16 25.76
+    -22.03 27.4
+    -20.42 7.38
+    -29.09 -2.22
+    -48.43 -3.29
+    -48.24 -7.03
+    -49.23 -7.07
+    -48.94 -13.64
+    -32.04 -12.92
+    -31.72 -20.51
+    -17.29 -19.87
+    -8.64 -9.93
+  ]
+  wallType "blue glass building"
+  wallColor [
+    0 0 0
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -280.18 0 306.9
+  name "Belorusneft? № 1"
+  floorNumber 1
+  corners [
+    0 0
+    -1 24.82
+    -9.69 24.48
+    -8.69 -0.35
+  ]
+  wallType "blue glass building"
+}
+SimpleBuilding {
+  translation -316.96 0 312.24
+  name "building(10)"
+  floorNumber 2
+  corners [
+    0 0
+    -23.16 -0.81
+    -22.52 -19.48
+    0.64 -18.67
+  ]
+  wallType "office building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -131.93 0 55.71
+  name "building(11)"
+  corners [
+    0 0
+    -1.77 34.57
+    -15.74 33.86
+    -13.97 -0.72
+  ]
+  wallType "brick building"
+}
+SimpleBuilding {
+  translation -123 0 7.1
+  name "building(12)"
+  corners [
+    0 0
+    -1.36 22.31
+    1.28 22.48
+    0.47 35.8
+    -9.28 35.21
+    -9.37 36.6
+    -16.73 36.15
+    -16.09 25.58
+    -13.93 25.71
+    -12.32 -0.75
+  ]
+  wallType "concrete building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -129.14 0 199.27
+  name "building(13)"
+  floorNumber 1
+  corners [
+    0 0
+    -41.56 -2.46
+    -40.12 -26.97
+    1.44 -24.5
+  ]
+  wallType "old brick building"
+}
+SimpleBuilding {
+  translation -170.54 0 19.1
+  name "building(14)"
+  corners [
+    0 0, -1.13 12.04, -8.37 11.7, -11.07 50.45, -5.06 50.8, -4.97 62.11, -12.19 61.6, -22.89 60.86, -21.34 31.53, -27.35 30.92, -27.31 35.78, -30.65 35.81, -31.06 40.09, -35.26 43.67, -33.13 46.15, -41.19 54.23, -40.29 55.35, -50.01 64.56, -52.14 63.2, -55.44 67.36, -64.08 58.69, -66.19 58.7, -65.81 49.89, -62.8 50.52, -47.23 35.61, -52.39 30.39, -52.49 18.29, -46.95 14.76, -60.31 -0.91, -62.76 -1.29, -62.83 -10.03, -57.38 -10.07, -50.64 -15.78, -48.5 -12.71, -46.73 -14.43, -37.74 -2.21, -38.17 -1.08, -30.87 8, -33.85 10.78, -30.48 15.03, -30.44 20.29, -25.32 20.64, -26.06 25.91, -21.38 25.87, -19.15 -1.23
+  ]
+  wallType "old building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 96.9 0 391.91
+  name "building(15)"
+  floorNumber 9
+  corners [
+    0 0
+    2.91 -48.52
+    40.83 -46.24
+    39.99 -32.23
+    28.39 -32.93
+    15.85 -33.69
+    15.35 -25.45
+    14.47 -10.63
+    13.79 0.73
+    7.89 0.42
+  ]
+  wallType "factory building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 38.82 0 356.79
+  name "building(16)"
+  floorNumber 9
+  corners [
+    0 0
+    -15.16 -0.37
+    -42.43 -1.04
+    -70.75 -1.74
+    -98.91 -2.43
+    -126.71 -3.11
+    -154.52 -3.8
+    -181.78 -4.46
+    -209.59 -5.15
+    -229.25 -5.63
+    -228.91 -19.77
+    -4.44 -14.32
+    0.33 -14.2
+  ]
+  wallType "red and white building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 48.76 0 -234.16
+  name "building(17)"
+  floorNumber 2
+  corners [
+    0 0
+    -8.43 -0.46
+    -16.56 -0.91
+    -15.88 -13.33
+    0.67 -12.42
+  ]
+  wallType "tall house"
+  roofShape "hipped roof"
+}
+SimpleBuilding {
+  translation -75.19 0 -220.41
+  name "Berlio"
+  floorNumber 2
+  corners [
+    0 0
+    -1.48 20.43
+    -14.6 19.48
+    -13.13 -0.95
+  ]
+  wallType "orange building"
+}
+SimpleBuilding {
+  translation 76.25 0 -262.57
+  name "building(18)"
+  floorNumber 2
+  corners [
+    0 0
+    -1.47 30
+    -13.75 29.4
+    -13.29 19.94
+    -12.74 8.87
+    -12.28 -0.6
+  ]
+  wallType "old office building"
+  roofShape "hipped roof"
+}
+SimpleBuilding {
+  translation 23 0 -237.98
+  name "building(19)"
+  floorNumber 2
+  corners [
+    0 0
+    -22.77 -1.15
+    -21.9 -18.67
+    -10.14 -18.07
+    0.88 -17.52
+  ]
+  wallType "construction building"
+  roofShape "gabled roof"
+}
+SimpleBuilding {
+  translation 134.43 0 54.32
+  name "building(20)"
+  floorNumber 10
+  corners [
+    0 0
+    -0.48 12.32
+    -1.62 41.22
+    -2.11 53.8
+    -16.06 53.09
+    -13.79 -0.53
+  ]
+  wallType "glass highrise"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 283.02 0 93.68
+  name "building(21)"
+  floorNumber 9
+  corners [
+    0 0
+    2.55 -40
+    15.73 -39.15
+    14.98 -27.51
+    13.89 -10.07
+    13.19 0.84
+  ]
+  wallType "red brick wall"
+  wallColor [
+    0 0 0
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 233.24 0 58.75
+  name "building(22)"
+  floorNumber 10
+  corners [
+    0 0
+    -43.77 -2.41
+    -43 -16.5
+    -32.59 -15.93
+    -10.56 -14.71
+    0.77 -14.09
+  ]
+  wallType "construction building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 216.29 0 133.8
+  name "building(23)"
+  floorNumber 9
+  corners [
+    0 0
+    -44.19 -2.77
+    -43.31 -16.91
+    -31.34 -16.16
+    -9.06 -14.76
+    0.88 -14.14
+  ]
+  wallType "old building"
+  wallColor [
+    0 0 0
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 326.53 0 -235.73
+  name "building(24)"
+  floorNumber 9
+  corners [
+    0 0
+    -18.47 -2.46
+    -36.93 -4.92
+    -34.68 -21.9
+    2.25 -16.98
+  ]
+  wallType "stone wall"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 141.93 0 116.03
+  name "building(25)"
+  floorNumber 10
+  corners [
+    0 0
+    -0.77 10.79
+    -2.87 40.26
+    -3.8 53.35
+    -16.98 52.41
+    -13.18 -0.94
+  ]
+  wallType "old house"
+  wallColor [
+    0 0 0
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 298.17 0 4.22
+  name "building(26)"
+  floorNumber 12
+  corners [
+    0 0
+    -0.8 13.1
+    -2.11 34.4
+    -3.05 49.7
+    -16.44 48.75
+    -12.94 -1.27
+  ]
+  wallType "classic building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 348.67 0 6.64
+  name "building(27)"
+  floorNumber 12
+  corners [
+    0 0
+    -14.64 -0.7
+    -39.86 -1.92
+    -50.5 -2.43
+    -49.85 -16.03
+    0.65 -13.6
+  ]
+  wallType "orange building"
+  wallColor [
+    0 0 0
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 243.43 0 67.35
+  name "building(28)"
+  floorNumber 10
+  corners [
+    0 0
+    -0.73 12.37
+    -2.24 38.13
+    -3.13 53.44
+    -16.49 52.65
+    -13.35 -0.79
+  ]
+  wallType "factory building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 238.44 0 133.7
+  name "building(29)"
+  floorNumber 9
+  corners [
+    0 0
+    -4.79 76.4
+    -18.36 75.54
+    -17.47 61.25
+    -15.98 37.58
+    -14.36 11.68
+    -13.58 -0.85
+  ]
+  wallType "brick building"
+  wallColor [
+    0 0 0
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 214.91 0 215.46
+  name "building(30)"
+  floorNumber 9
+  corners [
+    0 0
+    -2.86 44.43
+    -51.86 41.25
+    -77.53 39.59
+    -107.52 37.64
+    -105.19 1.48
+    -90.3 2.45
+    -90.93 12.24
+    -91.67 23.79
+    -78.17 24.67
+    -52.12 26.36
+    -28.35 27.89
+    -16.15 28.69
+    -14.98 10.43
+    -14.25 -0.93
+  ]
+  wallType "construction building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 36.08 0 203.62
+  name "building(31)"
+  floorNumber 13
+  corners [
+    0 0, -0.63 17.64, 1.44 17.71, 1.25 23.11, 1.05 28.81, -15.37 28.23, -15.31 26.8, -19.76 26.64, -19.4 16.49, -16.86 16.58, -16.71 12.14, -16.11 -4.65, -21.29 -4.84, -25.77 -5, -25.64 -8.85, -46.05 -9.57, -46.15 -6.9, -49.97 -7.04, -54.11 -7.18, -54 -10.41, -62.7 -10.73, -63.16 2.2, -63.32 6.81, -60.51 6.9, -60.86 16.99, -72.37 16.58, -72.3 14.67, -77.8 14.48, -77.55 7.07, -78.76 7.03, -77.99 -14.88, -64.04 -14.38, -63.68 -24.72, -13.45 -22.93, -13.6 -18.74, -9.67 -18.6, -9.82 -14.11, -7.64 -14.03, -5.37 -13.95, -5.85 -0.2
+  ]
+  wallType "tall house"
+  wallColor [
+    0 0 0
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 186.14 0 -12.66
+  name "building(32)"
+  floorNumber 10
+  corners [
+    0 0, -9.48 -0.62, -19.04 -1.23, -22.18 1.17, -31.99 10.18, -39.18 16.73, -51.07 28.6, -50.71 32.62, -51.06 54.24, -51.72 66.98, -65.51 66.45, -65.06 57, -63.54 25.17, -55.79 11.2, -40.72 -0.03, -24.71 -15.19, 0.34 -14.01, 0.36 -11.31, 40.15 -8.77, 44.05 -5.71, 53.02 -4.72, 59.65 -0.98, 60.92 5.92, 60.07 18.91, 46.38 17.41, 46.15 9.27, 45.88 5.69, 34.98 4.95, 12.77 2.98, 0.02 2.5
+  ]
+  wallType "factory building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -124.43 0 -241.45
+  name "building(33)"
+  floorNumber 9
+  corners [
+    0 0, -12.83 -0.48, -12.59 -6.84, -15.16 -11.36, -12.23 -16.55, -11.75 -29.72, -14.2 -34.37, -11.39 -39.37, -11.15 -45.94, 1.79 -45.46, 1.65 -41.91, 3.67 -41.84, 3.52 -38, 2.66 -38.04, 2.49 -33.39, 2.31 -28.76, 3.43 -28.72, 3.28 -24.9, 0.37 -25.01, 0.17 -19.45, 2.89 -19.35, 2.7 -14.35, 1.2 -14.41, 1.05 -10.47, 0.91 -6.53, 2.3 -6.47, 2.16 -2.84, 0.11 -2.91
+  ]
+  wallType "transparent highrise"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -61.78 0 160.06
+  name "building(34)"
+  floorNumber 13
+  corners [
+    0 0, -0.02 1.16, -44.67 0.28, -44.62 -2.14, -50.14 -2.25, -50.03 -7.82, -52.14 -7.86, -51.92 -19.09, -56.43 -19.18, -56.27 -27.57, -55.05 -27.55, -54.79 -40.71, -52.88 -40.67, -52.58 -55.55, -53.95 -55.58, -53.69 -69.04, -51.62 -69, -51.48 -75.71, -45.09 -75.59, -45.06 -77.42, -38.62 -77.29, -38.65 -75.41, -34.71 -75.33, -34.87 -67.34, -38.23 -67.41, -38.28 -65.09, -36.62 -65.06, -36.7 -60.76, -36.79 -56.47, -38.89 -56.51, -39.25 -38.31, -37.87 -38.28, -37.96 -33.92, -38.05 -29.56, -39.86 -29.59, -40.12 -16.05, -39.07 -16.03, -39.05 -16.73, -35.13 -16.66, -31.23 -16.58, -31.26 -14.86, -10.55 -14.45, -10.54 -15.09, -6.65 -15, -2.76 -14.93, -2.79 -13.77, -1.08 -13.73, -1 -17.03, 9.24 -16.82, 9.01 -4.79, 6.86 -4.83, 6.77 0.13
+  ]
+  wallType "highrise"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -169.94 0 -53.82
+  name "building(35)"
+  floorNumber 9
+  corners [
+    0 0, -10.72 -0.58, -10.62 -2.31, -18.52 -2.74, -21.82 -2.92, -21.71 -4.89, -27.66 -5.21, -27.72 -3.93, -36.23 -4.39, -39.24 -4.55, -39.66 3.02, -44.42 2.76, -44.48 3.87, -50.73 3.53, -49.98 -10.28, -51.22 -10.35, -50.98 -14.62, -47.97 -14.46, -47.8 -17.56, -42.77 -17.29, -42.65 -19.48, -38.19 -19.23, -38.16 -19.81, -33.81 -19.57, -33.85 -18.85, -32.31 -18.76, -32.4 -17.13, -15.55 -16.21, -15.41 -18.66, -8.99 -18.31, -9.09 -16.33, -4.7 -16.09, -4.8 -14.12, -0.09 -13.86, -0.26 -10.6, 2.91 -10.43, 2.69 -6.34, 0.35 -6.47
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 78.94 0 -310.54
+  name "building(36)"
+  floorNumber 2
+  corners [
+    0 0
+    -1.38 28.45
+    -13.7 27.84
+    -13.24 18.44
+    -12.71 7.22
+    -12.32 -0.6
+  ]
+  roofShape "hipped roof"
+}
+SimpleBuilding {
+  translation 52.63 0 -300.14
+  name "building(37)"
+  floorNumber 2
+  corners [
+    0 0
+    -16.56 -1.12
+    -15.69 -14.07
+    -7.4 -13.51
+    0.87 -12.95
+  ]
+  wallType "concrete building"
+  roofShape "hipped roof"
+}
+SimpleBuilding {
+  translation 19.04 0 -302.39
+  name "building(38)"
+  floorNumber 2
+  corners [
+    0 0
+    -16.98 -1.12
+    -16.12 -14.14
+    -7.64 -13.58
+    0.86 -13.02
+  ]
+  wallType "blue glass building"
+  roofShape "hipped roof"
+}
+SimpleBuilding {
+  translation -11.84 0 -316.42
+  name "building(39)"
+  floorNumber 2
+  corners [
+    0 0
+    -0.46 11.08
+    -2.29 11
+    -2.67 20.36
+    -3.07 30.08
+    -0.81 30.17
+    -1.3 41.99
+    -19.68 41.22
+    -19.15 28.41
+    -19.08 26.64
+    -16.54 26.75
+    -16.26 19.79
+    -15.97 12.81
+    -17.7 12.73
+    -17.64 11.04
+    -17.15 -0.72
+  ]
+  wallType "concrete building"
+  roofShape "hipped roof"
+}
+SimpleBuilding {
+  translation 29.26 0 -396.28
+  name "building(40)"
+  floorNumber 5
+  corners [
+    0 0
+    0.37 -4.85
+    23.22 -3.09
+    22.14 11.12
+    13.28 10.44
+    -5.24 9.01
+    -7 32.07
+    -8.67 53.99
+    -5.4 54.24
+    -5.99 61.94
+    -23.37 60.6
+    -18.64 -1.43
+  ]
+  wallType "office building"
+  wallColor [
+    1 0.75 0.8
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 190.34 0 -352.2
+  name "building(41)"
+  floorNumber 9
+  corners [
+    0 0
+    -19.75 -1.63
+    -31.88 -8.11
+    -41.88 -20.6
+    -44.78 -28.34
+    -39.19 -131.69
+    -36.72 -131.59
+    -28.9 -131.24
+    -26.93 -131.15
+    -27.52 -123.12
+    -28.33 -107.04
+    -29.37 -86.21
+    -30.5 -63.81
+    -31.44 -45.11
+    -32.07 -32.62
+    -27.12 -25.4
+    -21.72 -17.52
+    -15.8 -14.67
+    -8.23 -14.29
+    1.23 -13.82
+  ]
+  wallType "stone wall"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -104.74 0 -321.82
+  name "building(42)"
+  floorNumber 5
+  corners [
+    0 0
+    -0.77 15.66
+    -10.45 15.18
+    -20.15 14.7
+    -29.83 14.22
+    -39.51 13.74
+    -49.2 13.26
+    -58.89 12.78
+    -68.58 12.3
+    -67.81 -3.36
+  ]
+  wallType "orange building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -173.32 0 -309.52
+  name "building(43)"
+  floorNumber 4
+  corners [
+    0 0
+    -8.23 -0.4
+    -18.87 -0.91
+    -32.36 -1.56
+    -41.62 -2.01
+    -40.89 -17.6
+    0.77 -15.67
+  ]
+  wallType "construction building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 185.34 0 -219.91
+  name "building(44)"
+  floorNumber 1
+  corners [
+    0 0
+    -13.06 -0.58
+    -13.36 5.02
+    -30.7 4.18
+    -30.18 -1.54
+    -43.85 -2.01
+    -44.55 11.32
+    -44.75 15.06
+    -50.99 14.69
+    -52.67 40.28
+    -49.99 40.48
+    -50.19 43.31
+    -50.36 46.28
+    -48.45 46.4
+    -46.78 46.46
+    -47.35 58.47
+    -47.41 59.79
+    -3.91 62.6
+    -3.84 61.49
+    -1.23 18.21
+    -4.12 17.98
+    -3.99 15.96
+    -1.13 16.16
+  ]
+  wallType "old house"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -304.42 0 -235.39
+  name "building(45)"
+  floorNumber 2
+  corners [
+    0 0
+    -0.21 10.28
+    -15.32 9.99
+    -15.12 -0.3
+  ]
+  wallType "glass highrise"
+}
+SimpleBuilding {
+  translation -304.39 0 -249.8
+  name "building(46)"
+  floorNumber 2
+  corners [
+    0 0
+    -0.45 10.27
+    -15.59 9.59
+    -15.14 -0.68
+  ]
+  wallType "gray glass building"
+}
+SimpleBuilding {
+  translation -231.03 0 -355.33
+  name "building(47)"
+  floorNumber 1
+  corners [
+    0 0
+    11.24 0.45
+    10.83 11.11
+    -0.42 10.67
+  ]
+  wallType "red and white building"
+}
+SimpleBuilding {
+  translation -56 0 -307.35
+  name "building(48)"
+  floorNumber 1
+  corners [
+    0 0
+    7.9 0.35
+    7.58 7.57
+    -0.32 7.22
+  ]
+  wallType "old building"
+}
+SimpleBuilding {
+  translation -78.92 0 -270.87
+  name "building(49)"
+  floorNumber 1
+  corners [
+    0 0
+    -0.22 8.13
+    -9.03 7.9
+    -8.81 -0.23
+  ]
+  wallType "red and white building"
+}
+SimpleBuilding {
+  translation -51.11 0 -320.69
+  name "building(50)"
+  floorNumber 1
+  corners [
+    0 0
+    9.05 0.54
+    8.59 8.32
+    -0.46 7.78
+  ]
+  wallType "factory building"
+}
+SimpleBuilding {
+  translation -49.97 0 -179.46
+  name "building(51)"
+  floorNumber 2
+  corners [
+    0 0
+    8.31 0.29
+    8.13 5.49
+    -0.18 5.19
+  ]
+  wallType "gray glass building"
+}
+SimpleBuilding {
+  translation -71.31 0 -286.9
+  name "building(52)"
+  corners [
+    0 0
+    11.85 0.57
+    11.53 7.48
+    -0.33 6.91
+  ]
+  wallType "old building"
+}
+SimpleBuilding {
+  translation -195.64 0 -355.36
+  name "building(53)"
+  floorNumber 1
+  corners [
+    0 0
+    10.24 0.45
+    9.65 13.75
+    -0.58 13.31
+  ]
+  wallType "construction building"
+}
+SimpleBuilding {
+  translation -75.02 0 -249.72
+  name "building(54)"
+  floorNumber 2
+  corners [
+    0 0
+    -0.72 10.35
+    -14.39 9.39
+    -13.67 -0.95
+  ]
+  wallType "old building"
+}
+SimpleBuilding {
+  translation -23.21 0 -265.98
+  name "building(55)"
+  floorNumber 1
+  corners [
+    0 0
+    9.55 0.28
+    9.28 9.86
+    -0.27 9.58
+  ]
+  wallType "transparent highrise"
+}
+SimpleBuilding {
+  translation 30.61 0 -278.99
+  name "building(56)"
+  corners [
+    0 0
+    -0.25 7.89
+    -3.88 7.77
+    -4.04 12.65
+    -10.14 12.46
+    -9.73 -0.32
+  ]
+  wallType "concrete building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -91.1 0 -177.74
+  name "building(57)"
+  floorNumber 1
+  corners [
+    0 0
+    0.28 -7.56
+    9.68 -7.22
+    9.42 0.33
+  ]
+  wallType "brick building"
+}
+SimpleBuilding {
+  translation -214.55 0 -355.58
+  name "building(58)"
+  floorNumber 1
+  corners [
+    0 0
+    7.34 0.11
+    7.17 12.02
+    -0.18 11.9
+  ]
+  wallType "old building"
+}
+SimpleBuilding {
+  translation -84.8 0 -318.75
+  name "building(59)"
+  floorNumber 1
+  corners [
+    0 0
+    9.15 0.32
+    8.7 12.87
+    -0.44 12.55
+  ]
+  wallType "highrise"
+}
+SimpleBuilding {
+  translation -46.38 0 -221.07
+  name "building(60)"
+  floorNumber 1
+  corners [
+    0 0
+    9.36 0.34
+    9.16 6.13
+    -0.2 5.8
+  ]
+  wallType "red and white building"
+}
+SimpleBuilding {
+  translation -77.54 0 -294.21
+  name "building(61)"
+  floorNumber 1
+  corners [
+    0 0
+    -0.39 10.27
+    -9.69 9.92
+    -9.32 -0.35
+  ]
+  wallType "stone wall"
+}
+SimpleBuilding {
+  translation -47.89 0 -201.58
+  name "building(62)"
+  floorNumber 1
+  corners [
+    0 0
+    8.79 0.31
+    8.56 6.71
+    -0.23 6.39
+  ]
+  wallType "orange building"
+}
+SimpleBuilding {
+  translation -176.63 0 -352.41
+  name "building(63)"
+  floorNumber 1
+  corners [
+    0 0
+    13.32 0.58
+    12.87 11.13
+    -0.46 10.55
+  ]
+  wallType "brick building"
+}
+SimpleBuilding {
+  translation -21.53 0 -245.41
+  name "building(64)"
+  floorNumber 1
+  corners [
+    0 0
+    6.59 0.24
+    6.22 10.5
+    -0.37 10.27
+  ]
+  wallType "concrete building"
+}
+SimpleBuilding {
+  translation -68.1 0 -248.26
+  name "building(65)"
+  corners [
+    0 0
+    6.45 0.12
+    6.24 10.95
+    -0.22 10.83
+  ]
+  wallType "old brick wall"
+}
+SimpleBuilding {
+  translation -302.44 0 -362.86
+  name "building(66)"
+  floorNumber 2
+  corners [
+    0 0
+    9.4 0.41
+    8.81 13.97
+    -0.6 13.56
+  ]
+  wallType "construction building"
+}
+SimpleBuilding {
+  translation -254.56 0 -356.35
+  name "building(67)"
+  floorNumber 1
+  corners [
+    0 0
+    11.89 0.52
+    11.41 11.45
+    -0.47 10.93
+  ]
+  wallType "highrise"
+}
+SimpleBuilding {
+  translation -307.35 0 -192.96
+  name "building(68)"
+  floorNumber 2
+  corners [
+    0 0
+    -0.43 6.16
+    -9.95 5.5
+    -9.52 -0.66
+  ]
+}
+SimpleBuilding {
+  translation -322.54 0 -332.07
+  name "building(69)"
+  floorNumber 2
+  corners [
+    0 0
+    8.25 0.57
+    7.85 6.35
+    -0.4 5.77
+  ]
+  wallType "red and white building"
+}
+SimpleBuilding {
+  translation -314.27 0 -214
+  name "building(70)"
+  floorNumber 2
+  corners [
+    0 0
+    10.22 0.71
+    9.78 7.06
+    -0.44 6.35
+  ]
+  wallType "arcade-style building"
+}
+SimpleBuilding {
+  translation -351.26 0 -333.99
+  name "building(71)"
+  floorNumber 2
+  corners [
+    0 0
+    13.39 0.27
+    13.19 9.77
+    -0.19 9.51
+  ]
+  wallType "transparent highrise"
+}
+SimpleBuilding {
+  translation -307.46 0 -332.61
+  name "building(72)"
+  floorNumber 2
+  corners [
+    0 0
+    10.54 0.73
+    9.85 10.83
+    -0.68 10.1
+  ]
+  wallType "arcade-style building"
+}
+SimpleBuilding {
+  translation -343.66 0 -266.09
+  name "building(73)"
+  floorNumber 2
+  corners [
+    0 0
+    5.68 0.4
+    5.06 9.32
+    -0.62 8.92
+  ]
+  wallType "classic building"
+}
+SimpleBuilding {
+  translation -331.26 0 -256.67
+  name "building(74)"
+  floorNumber 2
+  corners [
+    0 0
+    9.01 0.63
+    8.5 8.04
+    -0.51 7.41
+  ]
+  wallType "brick building"
+}
+SimpleBuilding {
+  translation -342.96 0 -228.69
+  name "building(75)"
+  floorNumber 1
+  corners [
+    0 0
+    6.96 0.49
+    6.56 6.24
+    -0.4 5.75
+  ]
+  wallType "old office building"
+}
+SimpleBuilding {
+  translation -308.47 0 -303.45
+  name "building(76)"
+  floorNumber 2
+  corners [
+    0 0
+    7.45 0.51
+    5.87 23.09
+    -1.56 22.57
+  ]
+  wallType "old brick building"
+  roofShape "gabled roof"
+}
+SimpleBuilding {
+  translation -341.83 0 -211.99
+  name "building(77)"
+  floorNumber 2
+  corners [
+    0 0
+    7.76 0.54
+    6.99 11.7
+    -0.78 11.16
+  ]
+  wallType "glass highrise"
+}
+SimpleBuilding {
+  translation -313.51 0 -318.44
+  name "building(78)"
+  corners [
+    0 0
+    5.54 0.39
+    4.92 9.4
+    -0.63 9.02
+  ]
+  wallType "orange building"
+}
+SimpleBuilding {
+  translation -317.94 0 -268.15
+  name "building(79)"
+  floorNumber 2
+  corners [
+    0 0
+    12.77 0.89
+    12.22 8.88
+    -0.55 7.99
+  ]
+  wallType "orange building"
+}
+SimpleBuilding {
+  translation -348.29 0 -173.95
+  name "building(80)"
+  floorNumber 1
+  corners [
+    0 0
+    9.51 0.66
+    8.91 9.41
+    -0.61 8.74
+  ]
+  wallType "old office building"
+}
+SimpleBuilding {
+  translation -341.66 0 97.89
+  name "building(81)"
+  floorNumber 1
+  corners [
+    0 0
+    8.07 0.56
+    7.41 10.09
+    -0.66 9.53
+  ]
+  wallType "office building"
+}
+SimpleBuilding {
+  translation -324.5 0 -19.74
+  name "building(82)"
+  floorNumber 1
+  corners [
+    0 0
+    10.68 0.75
+    10.16 8.28
+    -0.52 7.54
+  ]
+  wallType "blue glass building"
+}
+SimpleBuilding {
+  translation -348.89 0 -63.07
+  name "building(83)"
+  floorNumber 1
+  corners [
+    0 0
+    9.55 0.67
+    8.79 11.63
+    -0.76 10.96
+  ]
+  wallType "blue glass building"
+  roofShape "gabled roof"
+}
+SimpleBuilding {
+  translation -279.47 0 -34.76
+  name "building(84)"
+  corners [
+    0 0
+    5.29 0.37
+    4.93 5.58
+    -0.36 5.22
+  ]
+  wallType "classic building"
+}
+SimpleBuilding {
+  translation -315.24 0 100.86
+  name "building(85)"
+  floorNumber 1
+  corners [
+    0 0
+    8.79 0.62
+    8.2 9.15
+    -0.59 8.53
+  ]
+  wallType "orange building"
+}
+SimpleBuilding {
+  translation -309.99 0 -4.93
+  name "building(86)"
+  floorNumber 1
+  corners [
+    0 0
+    9.89 0.69
+    9.24 10.12
+    -0.66 9.43
+  ]
+  wallType "factory building"
+}
+SimpleBuilding {
+  translation -293.76 0 24.26
+  name "building(87)"
+  floorNumber 1
+  corners [
+    0 0
+    7.81 0.54
+    7 12.21
+    -0.81 11.66
+  ]
+  wallType "old building"
+}
+SimpleBuilding {
+  translation -311.42 0 22
+  name "building(88)"
+  floorNumber 1
+  corners [
+    0 0
+    9.43 0.66
+    9.11 5.26
+    -0.32 4.61
+  ]
+  wallType "old office building"
+}
+SimpleBuilding {
+  translation -324.79 0 148.29
+  name "building(89)"
+  floorNumber 2
+  corners [
+    0 0
+    12.09 0.84
+    11.54 8.84
+    -0.56 8
+  ]
+  wallType "old brick wall"
+}
+SimpleBuilding {
+  translation -268.24 0 -59.02
+  name "building(90)"
+  floorNumber 1
+  corners [
+    0 0
+    12 0.83
+    11.37 9.91
+    -0.63 9.07
+  ]
+  wallType "factory building"
+}
+SimpleBuilding {
+  translation -305.33 0 150.52
+  name "building(91)"
+  corners [
+    0 0
+    5.97 0.41
+    5.44 8.16
+    -0.54 7.74
+  ]
+  wallType "old house"
+}
+SimpleBuilding {
+  translation -276.41 0 117.87
+  name "building(92)"
+  floorNumber 1
+  corners [
+    0 0
+    8.09 0.55
+    7.6 7.71
+    -0.49 7.15
+  ]
+  wallType "old brick building"
+}
+SimpleBuilding {
+  translation -313.71 0 76.12
+  name "building(93)"
+  floorNumber 1
+  corners [
+    0 0
+    8.15 0.57
+    7.54 9.48
+    -0.62 8.91
+  ]
+  wallType "old house"
+}
+SimpleBuilding {
+  translation -269.98 0 23.27
+  name "building(94)"
+  floorNumber 1
+  corners [
+    0 0
+    9.74 0.67
+    8.84 13.53
+    -0.89 12.85
+  ]
+  wallType "concrete building"
+}
+SimpleBuilding {
+  translation -284.71 0 147.78
+  name "building(95)"
+  floorNumber 2
+  corners [
+    0 0
+    11.91 0.83
+    11.3 9.62
+    -0.61 8.78
+  ]
+}
+SimpleBuilding {
+  translation -306.71 0 -60.91
+  name "building(96)"
+  floorNumber 1
+  corners [
+    0 0
+    8.1 0.57
+    7.56 8.36
+    -0.54 7.79
+  ]
+  wallType "transparent highrise"
+  roofShape "gabled roof"
+}
+SimpleBuilding {
+  translation -292.05 0 -59.78
+  name "building(97)"
+  floorNumber 2
+  corners [
+    0 0
+    9.99 0.7
+    9.27 10.87
+    -0.71 10.18
+  ]
+  wallType "old office building"
+  roofShape "gabled roof"
+}
+SimpleBuilding {
+  translation -296.79 0 99.92
+  name "building(98)"
+  floorNumber 1
+  corners [
+    0 0
+    5.72 0.4
+    4.83 13.3
+    -0.9 12.9
+  ]
+  wallType "highrise"
+}
+SimpleBuilding {
+  translation -333.49 0 -60.2
+  name "building(99)"
+  floorNumber 1
+  corners [
+    0 0
+    17.12 1.2
+    16.23 14.1
+    -0.9 12.9
+  ]
+  wallType "stone brick"
+}
+SimpleBuilding {
+  translation -324.65 0 37.06
+  name "building(100)"
+  floorNumber 2
+  corners [
+    0 0
+    10.26 0.72
+    9.77 7.87
+    -0.5 7.15
+  ]
+  wallType "highrise"
+}
+SimpleBuilding {
+  translation -334.15 0 20.26
+  name "building(101)"
+  floorNumber 1
+  corners [
+    0 0
+    7.54 0.53
+    6.98 8.52
+    -0.56 7.99
+  ]
+  wallType "old brick building"
+}
+SimpleBuilding {
+  translation -270.99 0 -5.53
+  name "building(102)"
+  floorNumber 1
+  corners [
+    0 0
+    11.96 0.83
+    11.21 11.63
+    -0.75 10.8
+  ]
+  wallType "stone wall"
+}
+SimpleBuilding {
+  translation -334.68 0 74.85
+  name "building(103)"
+  floorNumber 1
+  corners [
+    0 0
+    11.63 0.82
+    11.01 9.74
+    -0.62 8.93
+  ]
+  wallType "glass highrise"
+}
+SimpleBuilding {
+  translation -331.63 0 112.33
+  name "building(104)"
+  floorNumber 2
+  corners [
+    0 0
+    7.06 0.5
+    6.33 10.9
+    -0.72 10.41
+  ]
+  wallType "old office building"
+}
+SimpleBuilding {
+  translation -346.67 0 142.68
+  name "building(105)"
+  floorNumber 1
+  corners [
+    0 0
+    12.13 0.85
+    11.39 11.58
+    -0.75 10.73
+  ]
+  wallType "residential building"
+  roofShape "gabled roof"
+}
+SimpleBuilding {
+  translation -273.26 0 50.82
+  name "building(106)"
+  floorNumber 1
+  corners [
+    0 0
+    11.66 0.82
+    11.1 8.92
+    -0.56 8.11
+  ]
+  wallType "factory building"
+  roofShape "gabled roof"
+}
+SimpleBuilding {
+  translation -268.51 0 -31.97
+  name "building(107)"
+  floorNumber 1
+  corners [
+    0 0
+    11.89 0.83
+    11.52 6.08
+    -0.36 5.26
+  ]
+  wallType "concrete building"
+}
+SimpleBuilding {
+  translation -275.12 0 104.33
+  name "building(108)"
+  floorNumber 1
+  corners [
+    0 0
+    11.51 0.8
+    10.99 8.34
+    -0.52 7.54
+  ]
+  wallType "red brick wall"
+}
+SimpleBuilding {
+  translation -298.43 0 80.46
+  name "building(109)"
+  floorNumber 1
+  corners [
+    0 0
+    11.33 0.79
+    10.87 7.5
+    -0.47 6.72
+  ]
+  wallType "orange building"
+}
+SimpleBuilding {
+  translation -294.91 0 -12.26
+  name "building(110)"
+  corners [
+    0 0
+    11.46 0.8
+    10.33 16.92
+    -1.12 16.12
+  ]
+  wallType "construction building"
+  roofShape "gabled roof"
+}
+SimpleBuilding {
+  translation -335.36 0 -12.94
+  name "building(111)"
+  floorNumber 1
+  corners [
+    0 0
+    9.82 0.69
+    8.96 13.1
+    -0.86 12.41
+  ]
+  wallType "brick building"
+}
+SimpleBuilding {
+  translation -278.53 0 -43.22
+  name "building(112)"
+  corners [
+    0 0
+    8 0.56
+    7.62 6.04
+    -0.38 5.48
+  ]
+  wallType "gray glass building"
+}
+SimpleBuilding {
+  translation -290.33 0 -27.96
+  name "building(113)"
+  corners [
+    0 0
+    9.06 0.63
+    8.4 10.15
+    -0.66 9.51
+  ]
+  wallType "glass highrise"
+}
+SimpleBuilding {
+  translation 289.97 0 310.19
+  name "Okt?br?skij rajonnyj otdel sledstvennogo komiteta"
+  floorNumber 2
+  corners [
+    0 0
+    36.44 -1.34
+    36.14 14.51
+    -1.02 13.66
+  ]
+  wallType "highrise"
+}
+SimpleBuilding {
+  translation -9.73 0 -348.5
+  name "building(114)"
+  corners [
+    0 0
+    -0.62 15.66
+    -14.18 15.11
+    -14.1 12.99
+    -18.78 12.81
+    -18.5 5.91
+    -18.42 4.01
+    -14.09 4.18
+    -13.89 -0.56
+  ]
+  wallType "residential building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -230.33 0 -308.05
+  name "building(115)"
+  floorNumber 10
+  corners [
+    0 0
+    -9.8 -0.79
+    -22.72 -1.82
+    -27.6 59.28
+    -45.72 57.83
+    -44.71 45.28
+    -43.12 25.34
+    -41.36 3.37
+    -39.64 -18.29
+    1.2 -15.01
+  ]
+  wallType "construction building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -316.28 0 -165.03
+  name "building(116)"
+  floorNumber 1
+  corners [
+    0 0
+    7.83 0.47
+    8.45 -10.04
+    0.62 -10.51
+  ]
+}
+SimpleBuilding {
+  translation 27 0 299.58
+  name "building(117)"
+  floorNumber 19
+  corners [
+    0 0
+    1.59 -32.6
+    -18.43 -33.58
+    -20.02 -0.99
+  ]
+  wallType "glass building"
+  wallColor [
+    0 0 0
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -88.63 0 39.03
+  name "building(118)"
+  floorNumber 9
+  corners [
+    0 0
+    -15.74 -1.15
+    -15.17 -9.01
+    -8.87 -95.37
+    -8.38 -102.09
+    7.36 -100.94
+    6.3 -86.49
+    5.01 -68.73
+    3.26 -44.7
+    1.49 -20.41
+  ]
+  wallType "gray glass building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -111.02 0 -368.22
+  name "building(119)"
+  floorNumber 19
+  corners [
+    0 0
+    -1.89 29.46
+    -22.48 28.39
+    -20.9 4.74
+  ]
+  wallType "red brick wall"
+}
+SimpleBuilding {
+  translation -178.76 0 189.33
+  name "Tribuny"
+  corners [
+    0 0
+    -0.49 6.91
+    -24.72 5.18
+    -24.22 -1.73
+  ]
+  wallType "concrete building"
+}
+SimpleBuilding {
+  translation -96.62 0 195.24
+  name "Tribuny(1)"
+  corners [
+    0 0
+    -0.46 6.48
+    -24.25 4.79
+    -23.79 -1.7
+  ]
+  wallType "arcade-style building"
+}
+SimpleBuilding {
+  translation -21.61 0 78.93
+  name "building(120)"
+  floorNumber 1
+  corners [
+    0 0
+    -0.21 6.53
+    -9.18 6.25
+    -8.97 -0.29
+  ]
+  wallType "construction building"
+}
+SimpleBuilding {
+  translation 154.18 0 -259.32
+  name "building(121)"
+  floorNumber 2
+  corners [
+    0 0
+    0.56 -15.7
+    0.91 -24.82
+    4.23 -24.59
+    14.34 -23.87
+    19.33 -23.52
+    21.69 -23.36
+    22.72 -23.28
+    24.88 -23.13
+    26.41 -23.02
+    26.36 -19.49
+    29.22 -19.36
+    28.62 -9.59
+    25.76 -9.68
+    25.36 -1.68
+    24.86 8.53
+    24.59 13.7
+    14.59 13.29
+    15.21 1.57
+    3.31 0.83
+  ]
+  wallType "stone brick"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 86.31 0 -421.42
+  name "building(122)"
+  floorNumber 13
+  corners [
+    0 0
+    -0.73 10.87
+    -0.89 13.2
+    -1.41 20.96
+    -3.36 49.85
+    -3.75 55.38
+    -4.15 61.2
+    -4.25 62.66
+    -5.56 82.25
+    -6.02 89.01
+    -6.61 97.68
+    -20.91 96.71
+    -20.77 94.65
+    -20.22 86.6
+    -20.07 84.33
+    -19.04 69.06
+    -18.54 61.73
+    -18.39 59.46
+    -16.9 37.51
+    -16.77 35.57
+    -15.21 12.51
+    -16.38 12.43
+    -16.22 10.04
+    -15.46 -1.05
+    -14.14 -0.96
+  ]
+  wallType "old house"
+  wallColor [
+    0.96 0.96 0.86
+  ]
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 57.06 0 -181.65
+  name "building(123)"
+  floorNumber 6
+  corners [
+    0 0
+    -34.22 -2.23
+    -36.94 32.07
+    -4.66 34.18
+    -3.38 32.86
+    -1.97 31.41
+  ]
+  wallType "gray glass building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -269.03 0 -359.89
+  name "building(124)"
+  floorNumber 1
+  corners [
+    0 0
+    7.61 0.18
+    7.31 12.87
+    -0.29 12.69
+  ]
+  wallType "concrete building"
+}
+SimpleBuilding {
+  translation 71.1 0 -408.91
+  name "building(125)"
+  floorNumber 13
+  corners [
+    0 0
+    -1.56 23.06
+    -1.69 25
+    -3.18 46.95
+    -3.33 49.22
+    -3.83 56.55
+    -4.86 71.82
+    -5 74.09
+    -5.55 82.14
+    -5.69 84.2
+    8.6 85.17
+    9.19 76.5
+    9.65 69.74
+    10.97 50.15
+    11.07 48.69
+    11.47 42.87
+    11.86 37.34
+    13.81 8.45
+    14.32 0.69
+  ]
+  wallType "blue glass building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 27.15 0 -208.61
+  name "KTPB-2410"
+  floorNumber 1
+  corners [
+    0 0
+    -3.03 -0.08
+    -3.18 6.33
+    -0.15 6.4
+  ]
+  wallType "factory building"
+}
+SimpleBuilding {
+  translation -189.86 0 -194.82
+  name "TP-2418"
+  floorNumber 1
+  corners [
+    0 0
+    -5.46 0.15
+    -5.25 7.64
+    0.21 7.49
+  ]
+}
+SimpleBuilding {
+  translation -270.36 0 80.39
+  name "building(126)"
+  floorNumber 1
+  corners [
+    0 0
+    5.83 0.26
+    5.39 10.49
+    -0.45 10.23
+  ]
+  wallType "classic building"
+}
+SimpleBuilding {
+  translation -182.74 0 80.71
+  name "Pi?eblok"
+  corners [
+    0 0
+    -0.29 8.7
+    28.39 9.71
+    29.61 -14.98
+    7.61 -15.87
+    7.14 -10.81
+    7.22 0.5
+  ]
+  wallType "highrise"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 434.2 0 -108.96
+  name "building(127)"
+  floorNumber 9
+  corners [
+    0 0
+    -139.63 -18.51
+    -137.75 -32.8
+    -126.21 -31.27
+    -108.44 -28.91
+    -85.6 -25.89
+    -67.1 -23.44
+    -45.44 -20.57
+    -26.03 -18
+    -11.3 -16.04
+  ]
+  wallType "residential building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -81.97 0 -161.71
+  name "building(128)"
+  floorNumber 1
+  corners [
+    0 0
+    -0.07 7.07
+    -10.62 6.98
+    -10.56 -0.09
+  ]
+  wallType "glass building"
+}
+SimpleBuilding {
+  translation -41.74 0 -157.96
+  name "building(129)"
+  floorNumber 2
+  corners [
+    0 0
+    -0.28 7.42
+    -11.72 6.98
+    -11.43 -0.44
+  ]
+  wallType "gray glass building"
+}
+SimpleBuilding {
+  translation 166.19 0 136.07
+  name "TP-2278"
+  corners [
+    0 0
+    -0.12 7.4
+    -5.75 7.32
+    -5.63 -0.09
+  ]
+  wallType "residential building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 33.37 0 262.94
+  name "building(130)"
+  floorNumber 2
+  corners [
+    0 0
+    -28.07 -0.66
+    -29.03 40.15
+    -0.96 40.82
+  ]
+  wallType "brick building"
+}
+SimpleBuilding {
+  translation 32.41 0 303.75
+  name "building(131)"
+  floorNumber 19
+  corners [
+    0 0
+    -28.07 -0.67
+    -27.11 -41.48
+    0.96 -40.82
+  ]
+  wallType "highrise"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 48.22 0 176.93
+  name "TD DORORS"
+  corners [
+    0 0
+    -0.82 15.88
+    -2.6 49.93
+    -10.89 49.8
+    -10.7 44.41
+    -12.77 44.33
+    -12.14 26.7
+    -18 26.49
+    -17.51 12.75
+    -19.78 12.67
+    -19.09 -1.17
+  ]
+  wallType "old brick wall"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -16.68 0 -34.89
+  name "KTPb-2272"
+  corners [
+    0 0
+    -0.05 4.85
+    -8.95 4.76
+    -8.9 -0.09
+  ]
+  wallType "red brick wall"
+}
+SimpleBuilding {
+  translation -27.16 0 56.17
+  name "TP-2113"
+  corners [
+    0 0
+    -5.02 -0.15
+    -4.67 -11.88
+    0.35 -11.73
+  ]
+  wallType "gray glass building"
+}
+SimpleBuilding {
+  translation -22.13 0 56.33
+  name "TP-2237"
+  corners [
+    0 0
+    -5.03 -0.15
+    -4.68 -11.88
+    0.35 -11.73
+  ]
+  wallType "classic building"
+}
+SimpleBuilding {
+  translation -27.6 0 267.99
+  name "building(132)"
+  corners [
+    0 0
+    -0.06 4.23
+    -6.19 4.15
+    -6.13 -0.08
+  ]
+  wallType "brick building"
+}
+SimpleBuilding {
+  translation 323.17 0 33.93
+  name "TP-2273"
+  corners [
+    0 0
+    0.15 -5.94
+    8.93 -5.71
+    8.78 0.23
+  ]
+  wallType "glass building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 335.1 0 34.24
+  name "CTP 5/206"
+  corners [
+    0 0
+    -0.41 15.74
+    -12.34 15.43
+    -11.93 -0.31
+  ]
+  wallType "arcade-style building"
+  wallColor [
+    0 0 0
+  ]
+  roofType "bitumen"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 172.94 0 -292.37
+  name "building(133)"
+  floorNumber 1
+  corners [
+    0 0
+    -0.22 4.39
+    6.61 4.74
+    19.94 5.41
+    20.16 1.01
+  ]
+  wallType "glass highrise"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 144.01 0 -203.62
+  name "building(134)"
+  floorNumber 2
+  corners [
+    0 0
+    0.25 -3.89
+    6.2 -3.51
+    6.4 -6.57
+    31.54 -4.96
+    31.34 -1.91
+    37.42 -1.53
+    37.34 -0.33
+    37.21 1.69
+    37.14 2.79
+    31.12 2.4
+    29.93 21
+    4.74 19.38
+    5.97 0.39
+  ]
+  wallType "transparent highrise"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 179.54 0 -261
+  name "TP-2269"
+  floorNumber 1
+  corners [
+    0 0
+    6.26 0.31
+    5.76 10.52
+    -0.5 10.21
+  ]
+  wallType "tall house"
+}
+SimpleBuilding {
+  translation -184.16 0 -33.54
+  name "56"
+  corners [
+    0 0
+    2.77 -0.03
+    2.8 4.07
+    0.03 4.1
+  ]
+  wallType "concrete building"
+}
+SimpleBuilding {
+  translation -267.84 0 -219.34
+  name "GRP-34"
+  corners [
+    0 0
+    3.17 0.05
+    3.11 3.93
+    -0.06 3.88
+  ]
+  wallType "classic building"
+}
+SimpleBuilding {
+  translation 189.07 0 -310.19
+  name "building(135)"
+  corners [
+    0 0
+    -3.84 -1.65
+    -5.14 1.39
+    -1.31 3.04
+  ]
+  wallType "old office building"
+}
+SimpleBuilding {
+  translation 133.33 0 -68.98
+  name "building(136)"
+  corners [
+    0 0
+    -11.83 -0.8
+    -12.05 2.39
+    -12.3 6.19
+    -0.48 6.99
+    -0.24 3.54
+  ]
+  wallType "glass building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 138.5 0 -117.63
+  name "building(137)"
+  corners [
+    0 0
+    -11.82 -0.8
+    -12.06 2.69
+    -12.29 6.19
+    -0.47 6.99
+    -0.23 3.44
+  ]
+  wallType "old building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 62.22 0 -76.32
+  name "building(138)"
+  corners [
+    0 0
+    -11.82 -0.8
+    -12.03 2.32
+    -12.29 6.19
+    -0.47 6.99
+    -0.22 3.26
+  ]
+  wallType "stone brick"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation 67.3 0 -125.98
+  name "building(139)"
+  corners [
+    0 0
+    -11.83 -0.8
+    -12.04 2.3
+    -12.3 6.19
+    -0.47 6.99
+    -0.23 3.38
+  ]
+  wallType "brick building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -316.31 0 293.57
+  name "building(140)"
+  corners [
+    0 0
+    19.95 0.7
+    19.2 22.47
+    -0.75 21.77
+  ]
+  wallType "gray glass building"
+}
+SimpleBuilding {
+  translation 192.43 0 -281.51
+  name "building(141)"
+  corners [
+    0 0
+    0.45 -5.45
+    -12.88 -6.13
+    -13.37 -0.94
+    -11.83 -0.84
+  ]
+  wallType "old brick building"
+  roofShape "flat roof"
+}
+SimpleBuilding {
+  translation -77.68 0 -89.59
+  name "building(142)"
+  corners [
+    0 0
+    -6.87 -0.53
+    -7.04 1.72
+    -7.21 3.97
+    -0.34 4.5
+  ]
+  wallType "orange building"
+  roofShape "flat roof"
+}
+SimpleTree {
+  translation 95.91 0 -284.45
+  rotation 0 1 0 0.452
+  name "tree(1)"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 96.83 0 -297.13
+  rotation 0 1 0 2.201
+  name "tree(2)"
+  type "crab apple tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 95.16 0 -270.59
+  rotation 0 1 0 0.384
+  name "tree(3)"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 222.33 0 -136.75
+  rotation 0 1 0 0.247
+  name "tree(4)"
+  type "hackberry tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 192.44 0 -140.78
+  rotation 0 1 0 4.394
+  name "tree(5)"
+  type "birch tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 179.52 0 -146.23
+  rotation 0 1 0 1.253
+  name "tree(6)"
+  type "hackberry tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 93.98 0 -256.56
+  rotation 0 1 0 5.683
+  name "tree(7)"
+  type "crab apple tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 95.57 0 -276.61
+  rotation 0 1 0 5.267
+  name "tree(8)"
+  type "hackberry tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 192.56 0 -150.98
+  rotation 0 1 0 1.065
+  name "tree(9)"
+  type "hazel tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 192.43 0 -145.68
+  rotation 0 1 0 1.278
+  name "tree(10)"
+  type "oak tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 93.49 0 -247.57
+  rotation 0 1 0 4.955
+  name "tree(11)"
+  type "birch tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 96.63 0 -291.7
+  rotation 0 1 0 5.312
+  name "tree(12)"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 120.68 0 -347.02
+  rotation 0 1 0 3.327
+  name "tree(13)"
+  type "crab apple tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 120.38 0 -341.94
+  rotation 0 1 0 3.75
+  name "tree(14)"
+  type "birch tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 120.11 0 -335.64
+  rotation 0 1 0 4.182
+  name "tree(15)"
+  type "hackberry tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 149.55 0 -335.29
+  rotation 0 1 0 0.083
+  name "tree(16)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 145.22 0 -342.31
+  rotation 0 1 0 5.655
+  name "tree(17)"
+  type "white pine"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 143.18 0 -343.88
+  rotation 0 1 0 4.077
+  name "tree(18)"
+  type "white pine"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 140.16 0 -343.6
+  rotation 0 1 0 5.263
+  name "tree(19)"
+  type "white pine"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 140.8 0 -293.3
+  rotation 0 1 0 0.964
+  name "tree(20)"
+  type "white pine"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 193.91 0 -181.43
+  rotation 0 1 0 0.078
+  name "tree(21)"
+  type "oak tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 193.28 0 -160.75
+  rotation 0 1 0 4.659
+  name "tree(22)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 100.43 0 -350.39
+  rotation 0 1 0 4.643
+  name "tree(23)"
+  type "crab apple tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 99.88 0 -342.18
+  rotation 0 1 0 1.765
+  name "tree(24)"
+  type "hazel tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 67.53 0 -313.94
+  rotation 0 1 0 1.509
+  name "tree(25)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 76.46 0 -313.61
+  rotation 0 1 0 5.989
+  name "tree(26)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 205.58 0 -278.93
+  rotation 0 1 0 3.834
+  name "tree(27)"
+  type "crab apple tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 226.43 0 -165.01
+  rotation 0 1 0 2.257
+  name "tree(28)"
+  type "oak tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 42.2 0 -316.27
+  rotation 0 1 0 5.95
+  name "tree(29)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 304.89 0 -186.59
+  rotation 0 1 0 3.982
+  name "tree(30)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 205.88 0 -282.27
+  rotation 0 1 0 0.832
+  name "tree(31)"
+  type "hazel tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 208.72 0 -160.02
+  rotation 0 1 0 1.95
+  name "tree(32)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 119.49 0 -313.5
+  rotation 0 1 0 4.703
+  name "tree(33)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 24.3 0 -327.45
+  rotation 0 1 0 5.208
+  name "tree(34)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 7.83 0 -318.44
+  rotation 0 1 0 0.507
+  name "tree(35)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation -22.88 0 -234.46
+  rotation 0 1 0 1.208
+  name "tree(36)"
+  type "hazel tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 39.24 0 -288.46
+  rotation 0 1 0 2.101
+  name "tree(37)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 330.41 0 -13.51
+  rotation 0 1 0 1.504
+  name "tree(38)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 297.2 0 -84.54
+  rotation 0 1 0 4.005
+  name "tree(39)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 291.56 0 -85.92
+  rotation 0 1 0 2.379
+  name "tree(40)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 284.55 0 -86.34
+  rotation 0 1 0 5.5
+  name "tree(41)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 279.73 0 -86.63
+  rotation 0 1 0 3.57
+  name "tree(42)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 274.4 0 -88.08
+  rotation 0 1 0 2.604
+  name "tree(43)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 267.34 0 -88.19
+  rotation 0 1 0 2.528
+  name "tree(44)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 263.24 0 -89.17
+  rotation 0 1 0 4.41
+  name "tree(45)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 258.09 0 -89.44
+  rotation 0 1 0 2.628
+  name "tree(46)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 243.53 0 -90.91
+  rotation 0 1 0 4.161
+  name "tree(47)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 236.92 0 -91.96
+  rotation 0 1 0 0.294
+  name "tree(48)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 308.62 0 -326.1
+  rotation 0 1 0 0.401
+  name "tree(49)"
+  type "hackberry tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 304.48 0 -313.46
+  rotation 0 1 0 0.991
+  name "tree(50)"
+  type "oak tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation -8.78 0 -307.08
+  rotation 0 1 0 5.56
+  name "tree(51)"
+  type "hazel tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation -9.84 0 -288.86
+  rotation 0 1 0 3.795
+  name "tree(52)"
+  type "hazel tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation -9.68 0 -293.58
+  rotation 0 1 0 5.554
+  name "tree(53)"
+  type "birch tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 5.01 0 -318.61
+  rotation 0 1 0 3.108
+  name "tree(54)"
+  type "random"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation -9.92 0 -283.8
+  rotation 0 1 0 5.264
+  name "tree(55)"
+  type "crab apple tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation -9.21 0 -303.01
+  rotation 0 1 0 5.083
+  name "tree(56)"
+  type "birch tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 261.65 0 -351.54
+  rotation 0 1 0 1.181
+  name "tree(57)"
+  type "hackberry tree"
+  enableBoundingObject FALSE
+}
+SimpleTree {
+  translation 307.24 0 -348.01
+  rotation 0 1 0 6.149
+  name "tree(58)"
+  type "oak tree"
+  enableBoundingObject FALSE
+}
+Solid {
+  translation 0 0.75 0
+  children [
+    DEF SHAPE Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/red_brick_wall.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 504.5 1.5
+        }
+      }
+      geometry Extrusion {
+        crossSection [
+          0.1 0.75
+          0.1 -0.75
+          -0.1 -0.75
+          -0.1 0.75
+          0.1 0.75
+        ]
+        spine [
+          -179.85 0 99.31
+          -131.02 0 101.7
+          -124.81 0 97.68
+          -117.16 0 51.86
+          -114.2 0 49.11
+          -112.53 0 14.79
+          -114.66 0 11.81
+          -116.06 0 -33.14
+          -176.77 0 -33.03
+          -181.77 0 -20.65
+          -181.73 0 -16.41
+          -240.41 0 -14.95
+          -246.18 0 91.86
+          -246.45 0 95.99
+          -179.85 0 99.31
+        ]
+        splineSubdivision 0
+      }
+    }
+  ]
+  name "wall(1)"
+  boundingObject USE SHAPE
+}
+DEF parking Transform {
+  translation -199.692557 0 -32.283339
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 32 32
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -31.82 -0.01 0.25
+            -31.71 -0.01 14.46
+            0.11 -0.01 14.21
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation -231.425683 0 -239.376873
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 50 50
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -1.67 -0.01 48.98
+            -18.67 -0.01 48.4
+            -17.01 -0.01 -0.59
+            0 -0.01 0
+          ]
+        }
+        ccw FALSE
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 44.98315 0 -376.892819
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 30 30
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -1.49 -0.01 29.5
+            -6.92 -0.01 29.22
+            -5.43 -0.01 -0.27
+            0 -0.01 0
+          ]
+        }
+        ccw FALSE
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation -81.435892 0 -398.833524
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 53 53
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -3.03 -0.01 52.19
+            -9.63 -0.01 51.8
+            -6.6 -0.01 -0.38
+            0 -0.01 0
+          ]
+        }
+        ccw FALSE
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation -292.157275 0 332.176948
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 82 82
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -1 -0.01 21.59
+            -82.11 -0.01 16.38
+            -80.97 -0.01 -4.56
+            0 -0.01 0
+          ]
+        }
+        ccw FALSE
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 1.882425 0 275.874249
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 50 50
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -47.73 -0.01 -2.34
+            -48.26 -0.01 7.52
+            -49.06 -0.01 22.34
+            -49.61 -0.01 32.51
+            -1.35 -0.01 34.1
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, 5, 6, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 299.473887 0 -225.520651
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 35 35
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -33.61 -0.01 -5.25
+            -34.89 -0.01 3.24
+            -1.11 -0.01 7.08
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 325.959677 0 -193.1767
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 36 36
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -15.96 -0.01 -2.36
+            -21.93 -0.01 31.07
+            -9.53 -0.01 33.81
+            -6.91 -0.01 18.89
+            -2.49 -0.01 16.04
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, 5, 6, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 120.306033 0 -208.305813
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 23 23
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            11.36 -0.01 0.87
+            9.64 -0.01 23.48
+            -1.32 -0.01 22.36
+            0 -0.01 0
+          ]
+        }
+        ccw FALSE
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 131.952992 0 -323.999993
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 66 66
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            2.31 -0.01 -1.65
+            4.21 -0.01 -5.27
+            27.72 -0.01 -4.05
+            30.39 -0.01 -3.9
+            64.16 -0.01 -1.32
+            65.03 -0.01 0.79
+            66.4 -0.01 2.93
+            0 -0.01 0
+          ]
+        }
+        ccw FALSE
+        coordIndex [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 5.453209 0 -189.035955
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 53 53
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -20.29 -0.01 -1.24
+            -21.01 -0.01 10.52
+            -25.11 -0.01 10.27
+            -27.18 -0.01 44.52
+            -22.05 -0.01 44.84
+            -22.37 -0.01 50.1
+            -2.53 -0.01 51.31
+            6.26 -0.01 51.84
+            6.82 -0.01 42.78
+            0.74 -0.01 42.41
+            2.95 -0.01 5.98
+            -0.34 -0.01 5.78
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+          10, 11, 12, 13, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 68.38026 0 -201.001426
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 27 27
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -0.72 -0.01 11.8
+            -27.2 -0.01 10.2
+            -26.49 -0.01 -1.6
+            0 -0.01 0
+          ]
+        }
+        ccw FALSE
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 100.71707 0 -318.782589
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 108 108
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -4.75 -0.01 -0.18
+            2.42 -0.01 -107.71
+            6.88 -0.01 -107.18
+            0 -0.01 0
+          ]
+        }
+        ccw FALSE
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 111.828579 0 -244.222153
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 24 24
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            5.31 -0.01 0.34
+            6.79 -0.01 -22.95
+            1.49 -0.01 -23.28
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 268.283981 0 28.234881
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 47 47
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -4.17 -0.01 -0.24
+            -6.58 -0.01 46.43
+            -2.62 -0.01 46.61
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 271.264301 0 -14.908528
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 35 35
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -4.14 -0.01 -0.24
+            -6.15 -0.01 34.24
+            -2.01 -0.01 34.48
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 249.190395 0 28.133551
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 21 21
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -21.12 -0.01 -1.41
+            -20.76 -0.01 -6.79
+            -0.87 -0.01 -5.46
+            -1.07 -0.01 -2.24
+            0 -0.01 0
+          ]
+        }
+        ccw FALSE
+        coordIndex [
+          0, 1, 2, 3, 4, 5, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 210.860739 0 5.309849
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 33 33
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -33.31 -0.01 -2.17
+            -32.02 -0.01 -0.64
+            -31.27 -0.01 4.91
+            -0.69 -0.01 6.53
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, 5, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 320.93611 0 330.56468
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 29 29
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -26.76 -0.01 -1.59
+            -28.71 -0.01 2.68
+            0.03 -0.01 4.26
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 281.893156 0 329.069524
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 26 26
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -22.12 -0.01 -0.58
+            -25.77 -0.01 3.52
+            -3.08 -0.01 4.57
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 344.173124 0 341.157428
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 13 13
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -12.77 -0.01 -0.85
+            -13.11 -0.01 4.37
+            -0.44 -0.01 5.31
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 303.002481 0 339.337204
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 10 10
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -9.73 -0.01 -0.4
+            -9.97 -0.01 5.38
+            -0.24 -0.01 5.78
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 281.644133 0 338.459438
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 30 30
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -29.96 -0.01 -0.99
+            -30.15 -0.01 4.83
+            -0.2 -0.01 5.83
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 220.108197 0 109.854521
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 57 57
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -56.01 -0.01 -3.41
+            -55.01 -0.01 -16.35
+            0.73 -0.01 -12.52
+            0 -0.01 0
+          ]
+        }
+        ccw FALSE
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 195.12277 0 193.10922
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 30 30
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            0.24 -0.01 -6.81
+            -29.87 -0.01 -7.87
+            -30.1 -0.01 -1.05
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 182.711244 0 203.777717
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 32 32
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            0.28 -0.01 -6.89
+            -31.62 -0.01 -8.19
+            -31.9 -0.01 -1.3
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 186.389609 0 217.443309
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 36 36
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -34.83 -0.01 -2.49
+            -35.8 -0.01 2.46
+            -0.3 -0.01 4.6
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 145.429752 0 188.481172
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 30 30
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            0.29 -0.01 -5.69
+            -28.78 -0.01 -7.97
+            -29.57 -0.01 -1.95
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 138.213644 0 199.076302
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 30 30
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            0.18 -0.01 -5.43
+            -29.79 -0.01 -6.4
+            -29.97 -0.01 -0.96
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 213.585498 0 143.756395
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 37 37
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -11.59 -0.01 -0.72
+            -12.73 -0.01 2.38
+            -14.79 -0.01 35.3
+            -2.24 -0.01 36.08
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, 5, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 211.008484 0 20.021969
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 20 20
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -18.99 -0.01 -1.27
+            -19.84 -0.01 11.48
+            -0.85 -0.01 12.75
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}
+DEF parking Transform {
+  translation 99.780564 0 66.053254
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "textures/light_asphalt.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 73 73
+        }
+      }
+      geometry IndexedFaceSet {
+        coord Coordinate {
+          point [
+            0 -0.01 0
+            -6.57 -0.01 -0.33
+            -10.35 -0.01 71.97
+            -4.23 -0.01 72.38
+            0 -0.01 0
+          ]
+        }
+        coordIndex [
+          0, 1, 2, 3, 4, -1
+        ]
+      }
+      castShadows FALSE
+    }
+  ]
+}

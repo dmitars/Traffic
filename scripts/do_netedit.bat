@@ -1,0 +1,1 @@
+%WEBOTS_HOME%/projects/default/resources/sumo/bin/netedit ../world_net/sumo.net.xml
