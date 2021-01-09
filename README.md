@@ -20,19 +20,22 @@ Installation
 
 Usage
 ----
-A 1. Change minsk.osm to another file with the same name.
-  2. Run ourCreator.bat.
-  3. Open file world.wbt in Webots.
-  4. Add Sumo interface and set netConvert->false, netFiles->%MAP_PATH%/world_net.
-  5. Configure traffic lights.
-  6. Start simulation.
-B 2. You can run first_part.bat to create sumo.net.xml file.
-  3. Change sumo.net.xml with run do_netedit.bat using NETEDIT utilite or another way.
-  4. Write your file raw/routes.txt: first line - cars number, another - [+/-] depending on start node/end node, node name (from NETEDIT) and its priority.
-  5. Run trips.bat to generate cars and trips for them.
-  6. Go to items [3 - 6] from A variant.
-C 1. Run clearer.bat to remove all files except osm.
-  2. Go to A or B variants.
+## A
+1. Change minsk.osm to another file with the same name.
+2. Run ourCreator.bat.
+3. Open file world.wbt in Webots.
+4. Add Sumo interface and set netConvert->false, netFiles->%MAP_PATH%/world_net.
+5. Configure traffic lights.
+6. Start simulation.
+## B
+2. You can run first_part.bat to create sumo.net.xml file.
+3. Change sumo.net.xml with run do_netedit.bat using NETEDIT utilite or another way.
+4. Write your file raw/routes.txt: first line - cars number, another - [+/-] depending on start node/end node, node name (from NETEDIT) and its priority.
+5. Run trips.bat to generate cars and trips for them.
+6. Go to items [3 - 6] from A variant.
+## C
+1. Run clearer.bat to remove all files except osm.
+2. Go to A or B variants.
 
 Contributing
 ----
